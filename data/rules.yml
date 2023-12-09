@@ -35,15 +35,10 @@ rules:
       - intent: affiliation_vocational_courses
       - action: utter_affiliation_vocational_courses
 
-  - story: if the user ask anything about Diploma/Undergraduate Programs or d_vocb_voc courses or programs
+  - story: if the user ask anything about Diploma/Undergraduate Programs or d_vocb_voc courses or programs reply with action "utter_d_voc_b_voc_programmes"
     steps:
       - intent: d_voc_b_voc_programmes
       - action: utter_d_voc_b_voc_programmes
-
-  - story: Inquire about Regulation of Fees
-    steps:
-      - intent: regulation_fees_vocational_courses
-      - action: utter_regulation_fees_vocational_courses
 
   - story: Credit-based Modular Programs
     steps:
