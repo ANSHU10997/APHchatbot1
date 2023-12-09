@@ -1,0 +1,127 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - bot_challenge
+  - general_info_vocational_education
+  - nsqf
+  - affiliation_vocational_courses
+  - d_voc_b_voc_programmes
+  - regulation_fees_vocational_courses
+  - credit_based_modular_programs
+  - curriculum_mix_vocational_education
+  - curriculum_approval_oversight
+  - role_general_education_component
+  - emphasis_credit_based_modular_programs
+  - focus_skill_development_component_design
+  - national_occupational_standards
+  - curriculum_emphasis_work_readiness_skills
+  - determining_general_education_component
+  - completing_skill_modules_acquiring_credits
+  - credit_transfer_certification
+  - certification_levels_information
+  - general_stream_to_vocational_stream_transition
+  - movement_between_vocational_and_formal_higher_education_streams
+  - noc_process
+
+responses:
+  utter_greet:
+  - text: "Hey, I am FusionWizz, How can I help you?"
+  - text: "Hey, I am FusionWizz, your AI assitant for navigating APH Handbook."
+
+  utter_goodbye:
+  - text: "Bye, have a nice day."
+
+  utter_bot_challenge:
+  - text: "Sorry, Please ask me questions regarding APH Approval Process Handbook"
+
+  utter_general_info_vocational_education:
+  - text: "Vocational Education is occupation-based learning with practical training, directly developing expertise in specific skills. It differs from traditional education by focusing on job preparation and skill specialization."
+
+  utter_nsqf:
+  - text: "NSQF is a competency-based framework organizing qualifications into levels (1 to 10) based on knowledge, skills, and aptitude. It applies to formal, non-formal, or informal learning and ensures learners possess defined outcomes."
+
+  utter_affiliation_vocational_courses:
+  - text: "Vocational Courses may affiliate with existing universities, Skill Universities, or National Universities. Affiliation can also be with the Board of Technical Education, depending on the circumstances."
+
+  utter_d_voc_b_voc_programmes:
+  - text: "These programs provide Diploma/Undergraduate studies integrating specific job roles and their Qualification Packs/National Occupational Standards, along with a foundation in general education."
+
+  utter_regulation_fees_vocational_courses:
+  - text: "The fees for Vocational Courses are regulated by respective state bodies, Technical Boards, Universities, or relevant authorities depending on the jurisdiction."
+
+  utter_credit_based_modular_programs:
+  - text: "Modular programs have credits for skill and general education, allowing multiple exits and entries. Learners can seek employment after any award level and return to upgrade skills or qualifications as needed."
+
+  utter_curriculum_mix_vocational_education:
+  - text: "The curriculum should have a suitable mix with 40% of total credits allocated to general education and the remaining 60% to skill development components"
+  
+  utter_curriculum_approval_oversight:
+  - text: "The curriculum details are approved by respective Technical Boards or Universities. Oversight is conducted by the Ministry of Education (MoE) or relevant authorities."
+
+  utter_role_general_education_component:
+  - text: "The General Education Component constitutes 40% of total credits, providing a balanced educational foundation alongside the specialized skill development components."
+
+  utter_emphasis_credit_based_modular_programs:
+  - text: "Credit-based modular programs allow flexibility for learners, enabling them to enter the workforce at various award levels and return to upgrade qualifications or skills as needed."
+
+  utter_focus_skill_development_component_design:
+  - text: "The skill development component should lead to comprehensive specialization in one or two domains, ensuring a thorough understanding of the selected job roles."
+
+  utter_national_occupational_standards:
+  - text: "In such cases, the university/college should collaborate with industry experts to develop the curriculum for the specific area or job role."
+
+  utter_curriculum_emphasis_work_readiness_skills:
+  - text: "The curriculum should focus on developing work-ready skills in each of the three years, including practical work, on-the-job training, student portfolios, and project work."
+
+  utter_determining_general_education_component:
+  - text: "The Board of Studies of the affiliating University/Board decides the general education component, adhering to normal university standards. It includes holistic development courses, support to core trade, soft skills, IT skills, and language proficiency."
+
+  utter_completing_skill_modules_acquiring_credits:
+  - text: "Students complete skill modules at various certification levels, acquiring necessary credits from Skill Knowledge Providers (SKP), Training Providers, or Sector Skill Councils approved by NSDC or relevant authorities."
+
+  utter_credit_transfer_certification:
+  - text: "Credits, including skill and education components, are transferred to the Technical Board or University. If the required credits for a certification level are met, the Technical Board or University awards the certification."
+
+  utter_certification_levels_information:
+  - text: "All certification levels are identified in Appendix 1 of the document. Specific details can be referred to in the SAMVAY Document accessible at: SAMVAY Document."
+
+  utter_general_stream_to_vocational_stream_transition:
+  - text: "A student can enter at a certain level, provided the required skills are acquired from a registered SKP/Training Provider. Institutions may offer bridge courses for necessary knowledge transfer for those seeking lateral entry."
+
+  utter_movement_between_vocational_and_formal_higher_education_streams:
+  - text: "Candidates have the freedom to move between Vocational and formal higher education streams at various stages, including multi-level entry and exit systems, subject to fulfilling the required criteria of the affiliating body."
+
+  utter_noc_process:
+  - text: "The institution must apply online on the AICTE Web-Portal as per the calendar of AICTE for seeking NOC (No Objection Certificate)."
+  
+actions:
+  - utter_greet
+  - utter_goodbye
+  - utter_bot_challenge
+  - utter_general_info_vocational_education
+  - utter_nsqf
+  - utter_affiliation_vocational_courses
+  - utter_d_voc_b_voc_programmes
+  - utter_regulation_fees_vocational_courses
+  - utter_credit_based_modular_programs
+  - utter_curriculum_mix_vocational_education
+  - utter_curriculum_approval_oversight
+  - utter_role_general_education_component
+  - utter_emphasis_credit_based_modular_programs
+  - utter_focus_skill_development_component_design
+  - utter_national_occupational_standards
+  - utter_curriculum_emphasis_work_readiness_skills
+  - utter_determining_general_education_component
+  - utter_completing_skill_modules_acquiring_credits
+  - utter_credit_transfer_certification
+  - utter_certification_levels_information
+  - utter_general_stream_to_vocational_stream_transition
+  - utter_movement_between_vocational_and_formal_higher_education_streams
+  - utter_noc_process
+
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

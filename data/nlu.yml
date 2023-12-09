@@ -1,0 +1,298 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: 
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: 
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: bot_challenge
+  examples: 
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+
+- intent: general_info_vocational_education
+  examples: 
+    - How does job-focused learning differ from regular studies?
+    - What sets Vocational Education apart from normal school learning?
+    - Explain the difference between Vocational Education and traditional schooling.
+    - How is learning for a specific job different from the regular school system?
+    - What distinguishes Vocational Education from the usual way of studying?
+    - Break down the difference between learning for a career and traditional education.
+    - In simple terms, what makes Vocational Education stand out from the norm?
+    - How is Vocational Education unlike the education we receive in school?
+    - Describe the main difference between learning for a job and the traditional study approach.
+    - What makes Vocational Education unique compared to traditional education?
+
+- intent: nsqf
+  examples: 
+    - What is the National Skills Qualification Framework (NSQF), and how does it work?
+    - Explain the National Skills Qualification Framework (NSQF) in simple words.
+    - How does the National Skills Qualification Framework (NSQF) benefit us?
+    - Break down the National Skills Qualification Framework (NSQF) in an easy way.
+    - What role does the National Skills Qualification Framework (NSQF) play, and why is it important?
+    - Describe the purpose of the National Skills Qualification Framework (NSQF) in a clear manner.
+    - Provide a simple explanation for the National Skills Qualification Framework (NSQF).
+    - What does National Skills Qualification Framework (NSQF) mean, and why is it necessary?
+    - Explain the National Skills Qualification Framework (NSQF) in a simple and clear manner.
+    - What's the significance of the National Skills Qualification Framework (NSQF)?
+
+- intent: affiliation_vocational_courses
+  examples:
+    - How do Vocational Courses gain official recognition, and who grants approval?
+    - Explain the process of affiliating Vocational Courses and identify the involved entities.
+    - Describe the connection and official approval of Vocational Courses.
+    - What legitimizes Vocational Courses, and who bears the responsibility for approval?
+    - Elaborate on the process by which Vocational Courses become connected and approved, and specify the approving authorities.
+    - Clarify the steps involved in making Vocational Courses official and highlight the governing bodies responsible.
+    - What constitutes the affiliation process for Vocational Courses, and who oversees it?
+    - Explain the linkage and official recognition of Vocational Courses.
+    - How do Vocational Courses attain official status, and who plays a crucial role in that process?
+    - Outline the factors that contribute to making Vocational Courses official and identify the parties responsible for affiliation.
+
+- intent: d_voc_b_voc_programmes
+  examples:
+    - What unique aspects do D.Voc/B.Voc Programs offer, and how do they incorporate job roles?
+    - Can you elucidate the appealing features of D.Voc/B.Voc Programs and their integration with job opportunities?
+    - In what ways do D.Voc/B.Voc Programs stand out, and how do they intertwine with job roles?
+    - What distinguishes D.Voc/B.Voc Programs, and how do they facilitate job role inclusion?
+    - Can you provide insights into the noteworthy aspects of D.Voc/B.Voc Programs and their alignment with job roles?
+    - What makes D.Voc/B.Voc Programs interesting, and how do they connect with job opportunities?
+    - Share information on the exciting elements that D.Voc/B.Voc Programs offer and their collaboration with job roles.
+    - What features make D.Voc/B.Voc Programs captivating, and how do they accommodate job roles?
+    - Explain the engaging components of D.Voc/B.Voc Programs and their incorporation of job roles.
+    - What contributes to the awesomeness of D.Voc/B.Voc Programs, and how do they correlate with job roles?
+
+- intent: regulation_fees_vocational_courses
+  examples:
+    - Who determines the cost of Vocational Courses, and who participates in that decision-making process?
+    - Can you provide information on the entities overseeing the financial aspects of Vocational Courses and their collaborative decision-making?
+    - What entities are responsible for setting the fees for Vocational Courses, and who collaborates in this decision?
+    - Who establishes the pricing for Vocational Courses, and which individuals or groups are involved in this decision?
+    - Can you explain the management of finances for Vocational Courses and the collective decision-making involved?
+    - Who holds authority over determining the fees for Vocational Courses, and who contributes to this decision?
+    - What individuals or teams decide the fees for Vocational Courses, and who actively participates in the decision-making process?
+    - Who regulates the pricing of Vocational Courses, and who else plays a role in this determination?
+    - Can you elaborate on the entities overseeing the fee structure for Vocational Courses and their collaborative decision-making?
+    - Who decides the fees for Vocational Courses, and who assists in making that decision?
+
+- intent: credit_based_modular_programs
+examples:
+  - How do credit-based modular programs operate, and why are they of significance?
+  - Can you provide an explanation of the organizational structure of credit-based modular programs and their importance?
+  - In what manner are credit-based modular programs structured, and why should we consider them important?
+  - What is the significance of credit-based modular programs, and why should we pay attention to them?
+  - Can you elucidate how credit-based modular programs are formulated and their substantial importance?
+  - How are credit-based modular programs structured, and why do they hold significance?
+  - What is the organizational structure of credit-based modular programs, and why are they considered significant?
+  - Can you explain the arrangement of credit-based modular programs and their meaningfulness?
+  - In what way are credit-based modular programs set up, and why are they considered meaningful?
+  - What is the importance of credit-based modular programs, and how are they organized?
+
+- intent: curriculum_mix_vocational_education
+  examples:
+    - What is the optimal balance between traditional learning and practical skills in the school curriculum?
+    - Can you provide guidance on the ideal mix of general studies and applied skills in our educational programs?
+    - How should the curriculum strike the right balance between conventional subjects and engaging skills?
+    - What is the recommended blend of core academic studies and stimulating skills in our educational framework?
+    - Can you explain the best combination of traditional education and hands-on skills in the school curriculum?
+    - What constitutes the ideal proportion of conventional learning and exciting skills in our educational schedule?
+    - How much emphasis should be placed on traditional learning versus dynamic skills in our educational courses?
+    - Can you provide insights into the appropriate blend of traditional school subjects and compelling skills in our educational modules?
+    - What is the perfect integration of conventional studies and captivating skills in our educational programs?
+    - How can we strike the right balance between regular subjects and enriching skills in our schoolwork?
+
+- intent: curriculum_approval_oversight
+  examples:
+    - Who holds the authority to approve the content of our educational curriculum, and who oversees this process?
+    - Can you provide information on the entities responsible for endorsing our school lessons and the supervisory role in place?
+    - What individuals or groups decide the content of our educational curriculum, and who ensures its appropriateness?
+    - Who grants approval to the content included in our school lessons, and who monitors this decision?
+    - Can you explain the approval process for the content in our educational curriculum and the overseeing authority?
+    - Who provides approval for our school subjects, and who keeps a vigilant eye on this decision?
+    - Can you provide details on who grants approval to our school lessons and the overseeing authority involved?
+    - Who determines the content of our school books, and who oversees this decision-making process?
+    - What individuals or teams are responsible for approving our school lessons, and who monitors this process?
+    - Who approves the content of our school lessons, and who ensures its appropriateness?
+
+- intent: role_general_education_component
+  examples:
+    - What role does traditional education play in Vocational Education, and why is it essential?
+    - Can you elaborate on the significance of incorporating general studies in Vocational Education and its purpose?
+    - In what capacity does regular education contribute to Vocational Education, and why is it a crucial component?
+    - Why is traditional school content included in Vocational Education, and what purpose does it serve?
+    - Can you provide insights into the integration of general studies in Vocational Education and its role?
+    - What purpose does regular education serve in Vocational Education, and why is it an integral part of the plan?
+    - Why is there an inclusion of traditional school subjects in Vocational Education, and what role do they play?
+    - Can you shed light on why general studies are part of Vocational Education and their contribution to the curriculum?
+    - What role does traditional education play in Vocational Education, and why is it included in the plan?
+    - Why is there an incorporation of regular school content in Vocational Education, and what value does it bring to the table?
+
+- intent: emphasis_credit_based_modular_programs
+    examples:
+      - Why is there a significant emphasis on credit-based learning in Vocational Education, and what makes it noteworthy?
+      - Can you explain the rationale behind focusing on credits in Vocational Education and its importance?
+      - What's the significance of emphasizing credits in Vocational Education, and why is it considered essential?
+      - Why do we prioritize credit-based learning in Vocational Education, and what sets it apart?
+      - Can you provide insights into the importance of credits in Vocational Education and the reasons for its emphasis?
+      - What's the reason behind emphasizing credits in Vocational Education, and why is it valued?
+      - Why is there a considerable focus on credits in Vocational Education, and why does it matter?
+      - Can you articulate the importance of credit-based learning in Vocational Education?
+      - What's the emphasis on credits in Vocational Education all about, and why is it highlighted?
+      - Why is there a preference for credit-based learning in Vocational Education, and what makes it emphasized?
+
+- intent: focus_skill_development_component_design
+  examples:
+    - What considerations should be taken into account when designing the curriculum for acquiring skills, and what should be the primary focus?
+    - Can you provide guidance on the essential elements to focus on when planning the curriculum for developing skills?
+    - In designing the learning of skills, what aspects should take precedence, and what should be the focus?
+    - What key factors should be prioritized when planning for the acquisition of skills, and what should be the main focus?
+    - Can you explain the critical components to focus on when designing the curriculum for developing skills?
+    - What should be the primary focus when planning for the acquisition of cool skills, and what are the crucial elements?
+    - How should the learning of fun skills be designed, and what should be the main focus?
+    - Can you provide insights into the essential elements to focus on when planning the curriculum for acquiring cool skills?
+    - What's the main idea for designing the learning of awesome skills, and what should be the focus?
+    - How should the planning for learning fun skills be approached, and what should be the main focus?
+
+- intent: national_occupational_standards
+  examples:
+    - In the absence of National Occupational Standards (NOS) for a job, what steps should be taken, and how can the situation be addressed?
+    - Can you provide guidance on what actions to take when National Occupational Standards (NOS) are unavailable for a specific job, and how to resolve the issue?
+    - When job-specific National Occupational Standards (NOS) are missing, what strategies should be employed, and how can the challenge be overcome?
+    - How should one navigate the situation when essential National Occupational Standards (NOS) for a job are not present, and what solutions can be implemented?
+    - Can you explain the course of action to take when the necessary job guidelines (NOS) are absent, and how to manage the situation?
+    - What steps should be taken when the job standards (NOS) are not available, and how can the issue be resolved?
+    - How do we address the challenge if National Occupational Standards (NOS) for a job are not in place, and what remedies can be applied?
+    - Can you provide guidance on what measures to take when job-specific National Occupational Standards (NOS) are unavailable, and how to handle the situation?
+    - When faced with the absence of National Occupational Standards (NOS) for a job, what steps should be taken, and how can the situation be remedied?
+    - Can you explain the recommended course of action when the essential guidelines provided by National Occupational Standards (NOS) are not present for a job?
+
+- intent: curriculum_emphasis_work_readiness_skills
+  examples:
+    - What aspects of work readiness skills does the school curriculum focus on, and why is it important?
+    - Can you elaborate on the specific work-related skills emphasized in the school curriculum and their significance?
+    - In the school plan, what key skills are highlighted to prepare students for the workforce, and why is it crucial?
+    - Why is there a significant emphasis on getting ready for work in the school curriculum, and what is the primary focus?
+    - Can you explain the main elements of the school plan that contribute to work readiness skills and their importance?
+    - What is the primary focus of the school plan in developing skills for the workplace, and why is it valued?
+    - Why is there a considerable emphasis on work readiness skills in the school curriculum, and what is the primary focus?
+    - Can you provide insights into the specific aspects of work readiness skills emphasized in the school plan and their contribution?
+    - What elements of the school curriculum are dedicated to developing skills for the workplace, and why is it significant?
+    - How does the school plan contribute to developing skills for the workplace, and why is it emphasized?
+
+- intent: determining_general_education_component
+  examples:
+    - How is the decision made regarding the inclusion of traditional subjects in the school curriculum, and what criteria are followed?
+    - Can you explain the process of selecting the regular subjects included in the school curriculum, and what important rules guide this decision?
+    - What factors determine the inclusion of traditional school content in the curriculum, and what rules are considered significant?
+    - How do authorities decide on the selection of regular subjects in the school curriculum, and what rules should be followed?
+    - Can you provide insights into the process of choosing what students study in school and the essential rules that govern this decision?
+    - What considerations guide the decision-making process for determining the regular school content included in the curriculum, and what rules are emphasized?
+    - How is the determination made regarding the inclusion of normal subjects in the school curriculum, and what important rules are followed?
+    - Can you explain the process of deciding what students study in school and the crucial rules that influence this decision?
+    - What criteria are followed in determining the regular school content included in the curriculum, and what rules are considered significant?
+    - How do authorities decide on the selection of regular subjects in the school curriculum, and what rules should be followed?
+
+- intent: completing_skill_modules_acquiring_credits
+  examples: 
+    - How do we complete the fun skill modules in Vocational Education and earn credits?
+    - Can you explain the process of finishing the cool skill modules in Vocational Education and acquiring scores?
+    - What's the method for completing the interesting skill modules in Vocational Education and obtaining credit points?
+    - How can we finish the awesome skill modules in Vocational Education and earn points?
+    - Can you describe how to complete the fun skill modules in Vocational Education and gain credits?
+    - How do we complete the exciting skill modules in Vocational Education and earn scores?
+    - What steps should be taken to finish the cool skill modules in Vocational Education and obtain credit points?
+    - How do we complete the interesting skill modules in Vocational Education and earn points?
+    - What's the procedure for doing the awesome skill modules in Vocational Education and getting credit points?
+    - Can you explain the process of completing skill modules in Vocational Education and acquiring credits?
+
+- intent: credit_transfer_certification
+  examples:
+    - How do we transfer our earned credits and receive awards in Vocational Education, and what's the process?
+    - Can you explain the procedure for shifting our scores and obtaining prizes in Vocational Education?
+    - What steps should be followed to move our points and receive certificates in Vocational Education?
+    - How can we transfer our earned points and obtain awards in Vocational Education, and what's the way?
+    - Can you describe the process of transferring our points and receiving awards in Vocational Education?
+    - What's the method to move our points and obtain certificates in Vocational Education, and how does it work?
+    - How do we transfer our points and get awards in Vocational Education, and what's the way?
+    - Can you explain the process of shifting our scores and getting prizes in Vocational Education?
+    - What steps should be taken to move our points and obtain certificates in Vocational Education?
+    - How can we transfer our earned points and obtain awards in Vocational Education, and what's the process?
+
+- intent: certification_levels_information
+  examples: 
+    - Where can we find information about the levels of 'Knowledge and Skill' certifications?
+    - Can you tell me where to look for details on the different levels of 'Knowledge and Skill' certifications?
+    - Where is the place to go if we want to know about the levels of 'Knowledge and Skill' certifications?
+    - Can you explain where we can find details about the 'Knowledge and Skill' certification levels?
+    - Where do we go to get information on the levels of 'Knowledge and Skill' certifications?
+    - Can you tell me where to find details on the different levels of 'Knowledge and Skill' certifications?
+    - Where is the information about the levels of 'Knowledge and Skill' certifications available?
+    - Can you explain where we can find out about the levels of 'Knowledge and Skill' certifications?
+    - Where should we go to get information on the identified certification levels of 'Knowledge and Skill'?
+    - Can you tell me where to find details about the levels of 'Knowledge and Skill' certifications?
+
+- intent: general_stream_to_vocational_stream_transition
+  examples:
+    - How does someone transition from regular school to Vocational classes, and what is the role of SKP/Training Providers?
+    - Can you explain the process for a person in regular school to join Vocational classes and the responsibilities of SKP/Training Providers?
+    - What steps should someone in regular classes take to enter Vocational classes, and what is the involvement of SKP/Training Providers?
+    - How can a person in normal school move into Vocational classes, and what responsibilities do SKP/Training Providers have?
+    - Can you describe the process of someone from regular classes entering Vocational classes and the role of SKP/Training Providers?
+    - How does a person from regular school switch to Vocational classes, and what do SKP/Training Providers do?
+    - Can you explain the process for a person in normal school to join Vocational classes and the responsibilities of SKP/Training Providers?
+    - What steps should someone in regular classes take to enter Vocational classes, and what is the involvement of SKP/Training Providers?
+    - How can a person in normal school move into Vocational classes, and what responsibilities do SKP/Training Providers have?
+    - Can you describe the process of someone from regular classes entering Vocational classes and the role of SKP/Training Providers?
+
+- intent: movement_between_vocational_and_formal_higher_education_streams
+  examples:
+    - What options do we have to transition between Vocational classes and regular higher studies, as per the National Education Policy 2020?
+    - Can you explain the choices available for moving between job-oriented classes and regular higher studies, according to the National Education Policy 2020?
+    - What decisions can be made regarding the transition from interesting job classes to normal higher studies, following the National Education Policy 2020?
+    - How much flexibility is there to move between exciting job classes and regular higher studies, according to the National Education Policy 2020?
+    - Can you describe the freedom to switch between fun job classes and regular higher studies, as per the National Education Policy 2020?
+    - What options do we have to transition between Vocational classes and regular higher studies, as per the National Education Policy 2020?
+    - Can you explain the choices available for moving between job-oriented classes and regular higher studies, according to the National Education Policy 2020?
+    - What decisions can be made regarding the transition from interesting job classes to normal higher studies, following the National Education Policy 2020?
+    - How much flexibility is there to move between exciting job classes and regular higher studies, according to the National Education Policy 2020?
+    - Can you describe the freedom to switch between fun job classes and regular higher studies, as per the National Education Policy 2020?
+
+- intent: noc_process
+  examples:
+    - How does a school request a No Objection Certificate (NOC), and where should they send the application?
+    - Can you explain the process for a school to apply for a No Objection Certificate (NOC) and the designated submission destination?
+    - What steps should a school follow to ask for a No Objection Certificate (NOC), and where does the request go?
+    - How can a school apply for a No Objection Certificate (NOC), and what is the submission process?
+    - Can you describe the procedure for a school to request a No Objection Certificate (NOC), and where should it be sent?
+    - What steps should a school take to ask for a No Objection Certificate (NOC), and where does the request go?
+    - How can a school apply for a No Objection Certificate (NOC), and what is the submission process?
+    - Can you explain the process for a school to request a No Objection Certificate (NOC) and the designated submission destination?
+    - What steps should a school follow to ask for a No Objection Certificate (NOC), and where does the request go?
+    - How can a school apply for a No Objection Certificate (NOC), and what is the submission process?
