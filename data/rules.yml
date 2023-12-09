@@ -40,7 +40,7 @@ rules:
       - intent: d_voc_b_voc_programmes
       - action: utter_d_voc_b_voc_programmes
 
-  - story: Credit-based Modular Programs
+  - story: if the user asks anything about Credit-based Modular Programs reply with action "utter_credit_based_modular_programs" or user asks anything related to credit-based modular programs
     steps:
       - intent: credit_based_modular_programs
       - action: utter_credit_based_modular_programs
