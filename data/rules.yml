@@ -12,7 +12,7 @@ rules:
 #  - intent: bot_challenge
 #  - action: utter_iamabot
 
-- rule: Use intent 'regulation_fees_vocational_courses'
+- rule: Use intent 'regulation_fees_vocational_courses' anytime anyone ask about fees regulation
   steps:
   - intent: regulation_fees_vocational_courses
   - action: utter_regulation_fees_vocational_courses
