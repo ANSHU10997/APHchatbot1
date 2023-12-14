@@ -568,7 +568,7 @@ nlu:
       - Why is it crucial to understand Affidavit 2 in AICTE, and what measures can AICTE implement in case of misleading information?
 
   - intent: mandatory_submission_to_State_Government_and_affiliating_University
-    examples:
+    examples: |
       - What is the significance of submitting the application to both the State Government/UT and the affiliating University/Board?
       - Why do applicants need to provide a copy of the application to both the State Government/UT and the affiliating University/Board?
       - What role does the State Government/UT play in the application process for new institutions?
@@ -579,7 +579,7 @@ nlu:
       - How does the submission of applications to both the State Government/UT and the affiliating University/Board contribute to the approval process for new institutions?
 
   - intent: timeline_for_views_from_State_Government_and_affiliating_University
-    examples:
+    examples: |
       - How long does it take for the State Government or Union Territory to provide feedback on the application?
       - What's the typical duration for the State Government or UT to share their opinions on the application process?
       - Can you provide information on the timeframe for the State Government or UT to respond to the application?
@@ -590,7 +590,7 @@ nlu:
       - Can you share insights into the general timeline for the affiliating University or Board to provide their input on the application?
 
   - intent: lifting_of_moratorium_for_new_institutions
-    examples:
+    examples: |
       - Why was the moratorium lifted for establishing new engineering and technology institutions starting from the Academic Year 2023-24?
       - What does the lifting of the moratorium mean for the establishment of new engineering and technology institutions in the academic year 2023-24?
       - What led to the decision to lift the moratorium for the creation of new institutions in the field of engineering and technology, starting from the academic year 2023-24?
@@ -601,7 +601,7 @@ nlu:
       - In what ways will the lifting of the moratorium for establishing new institutions in engineering and technology impact the educational landscape for the Academic Year 2023-24?
 
   - intent: requirements_and_eligibility_for_Promoter_Trust_Society_Company
-    examples:
+    examples: |
       - Requirements and eligibility criteria for a Promoter Trust/Society/Company to establish a new technical institution
       - What prerequisites must a Promoter Trust, Society, or Company fulfill to establish a new technical institution?
       - Outline the eligibility criteria for a Promoter Trust, Society, or Company looking to establish a new technical institution
@@ -614,7 +614,7 @@ nlu:
       - Outline the essential criteria that a Promoter Trust, Society, or Company should adhere to in order to establish a new technical institution
 
   - intent: minimum_funds_required_for_proof_of_operational_expenses
-    examples: 
+    examples: |
       - Minimum financial commitment needed to cover operational expenses for the proposed programs in a technical institution
       - Can you provide details on the required minimum funding to support operational expenses for the different programs proposed by a technical institution?
       - What is the specified amount of funds needed to demonstrate operational viability for the proposed programs in a technical institution?
@@ -627,7 +627,7 @@ nlu:
       - What are the specified funds required to substantiate the operational costs for the programs proposed by a technical institution?
 
   - intent: building_plan_requirements_and_approval
-    examples:
+    examples: |
       - What specifications should be included in the building plans for a technical institution, and which authority is responsible for approving them?
       - Outline the necessary elements in the building plans for a technical institution
       - What are the key components that should be incorporated into the building plans for a technical institution?
@@ -639,7 +639,7 @@ nlu:
       - Can you outline the building plan requirements for a technical institution, and specify the approving authority for these plans?
 
   - intent: qualifications_required_for_head_of_technical_institution
-    examples:
+    examples: |
       - Who should be named as the head of a technical institution, and what qualifications are required (section 1.5.1d)?
       - What are the qualifications needed for someone to become the head of a technical institution?
       - Who should be appointed as the head of a technical institution, and what educational background is ideal for this role?
@@ -651,7 +651,7 @@ nlu:
       - Who should be chosen as the head of a technical institution, and what educational qualifications are essential for the role?
 
   - intent: existing_institutions_applying_for_closure_and_starting_new_institution
-    examples:
+    examples: |
       - Is it possible for institutions in the process of closure to simultaneously apply to establish a new technical institution on the same premises during the same academic year?
       - Can institutions undergoing closure procedures also submit applications for initiating a new technical institution at the same location within the same academic year?
       - Is there a provision for institutions currently in the closure process to seek approval for starting a new technical institution at the same premises in the same academic year?
@@ -663,7 +663,7 @@ nlu:
       - Is it allowed for institutions undergoing closure to apply for the establishment of a new technical institution at the same premises in the same academic year?
 
   - intent: outcomes_of_approval_under_section_1.5.2a
-    examples:
+    examples: |
       - What are the next steps after the approval of the application to start a new technical institution?
       - Once the application for a new technical institution is approved, what follows in the process?
       - What changes or preparations are required after the successful approval of a new technical institution application?
@@ -675,7 +675,7 @@ nlu:
       - After the approval, what are the considerations and actions needed to kickstart operations for the new technical institution?
 
   - intent: fund_position_requirements_in_terms_of_FDRs_and_bank_accounts
-    examples: 
+    examples: |
       - How does the applicant's financial standing look concerning Fixed Deposits (FDRs) and bank accounts?
       - Can you provide details about the applicant's financial position, particularly in terms of Fixed Deposits (FDRs) and bank accounts?
       - What is the status of the applicant's funds when considering Fixed Deposits (FDRs) and bank accounts?
@@ -687,7 +687,7 @@ nlu:
       - Could you provide insights into the applicant's financial portfolio, specifically focusing on Fixed Deposits (FDRs) and bank accounts?
 
   - intent: requirements_for_Government_Government-Aided_Institutions_Central_State_Universities
-    examples:
+    examples: |
       - What are the budgetary prerequisites for Government and Government-Aided Institutions in terms of land and built-up area?
       - Can you outline the minimal budget provision and land/built-up area requirements for Central and State Universities?
       - What are the mandatory budget allocations and land/built-up area criteria for Government-Aided Institutions at both Central and State levels?
@@ -699,7 +699,7 @@ nlu:
       - What are the baseline financial allocations and land/built-up area expectations for Government, Government-Aided, and Central/State University institutions?
 
   - intent: restrictions_on_use_of_names_for_new_technical_institution
-    examples:
+    examples: |
       - Are there limitations on the names of new technical institutions, specifically regarding the use of abbreviations and certain words?
       - What rules govern the naming of a new technical institution, especially when it comes to abbreviations and specific words?
       - Can you provide guidelines on the permissible use of names, including abbreviations and specific words, for a newly established technical institution?
@@ -711,7 +711,7 @@ nlu:
       - Can you provide insights into the naming policies for new technical institutions, highlighting any constraints related to abbreviations and certain terminology?
 
   - intent: differentiation_of_existing_institutions_with_same_name_within_state
-    examples:
+    examples: |
       - What strategies can institutions with identical names in a state employ to distinguish themselves from one another?
       - How can educational institutions sharing the same name in a state establish unique identities to avoid confusion?
       - What steps should be taken by similarly named institutions within a state to set themselves apart in terms of branding and recognition?
