@@ -296,3 +296,428 @@ nlu:
       - Can you explain the process for a school to request a No Objection Certificate (NOC) and the designated submission destination?
       - What steps should a school follow to ask for a No Objection Certificate (NOC), and where does the request go?
       
+  - intent: prerequisites_for_establishing_technical_institution
+    examples: |
+      - Conditions must be met to establish a new technical institution based on the provided information
+      - Key requirements for founding a new technical institution, as per the content
+      - Outline the necessary criteria for starting a new technical institution according to the content?
+      - What prerequisites are mentioned for initiating a new technical institution in the content?
+      - How can one establish a new technical institution, considering the prerequisites outlined in the content?
+      - What steps and conditions are specified for founding a new technical institution according to the content?
+      - What information is provided regarding the prerequisites for setting up a new technical institution?
+      - List the essential requirements for the establishment of a new technical institution, based on the content
+      - What are the prerequisites for establishing a new technical institution according to the content?
+
+  - intent: significance_of_adhering_to_laws
+    examples: |
+      - What is the significance of adhering to Central, State, and Local Laws as mentioned in the content?
+      - Why is it important to follow Central, State, and Local Laws, as emphasized in the content?
+      - Elaborate on the importance of compliance with Central, State, and Local Laws, as stated in the content
+      - What role does adherence to Central, State, and Local Laws play, according to the content?
+      - Why is there a focus on following Central, State, and Local Laws, as per the content?
+      - In what ways does complying with Central, State, and Local Laws hold significance, as mentioned in the content?
+      - Explain the relevance of sticking to Central, State, and Local Laws, as outlined in the content?
+      - How does the content emphasize the significance of abiding by Central, State, and Local Laws?
+      - What are the reasons behind stressing the importance of adherence to Central, State, and Local Laws, according to the content?
+
+  - intent: role_of_state_government_in_establishment
+    examples: |
+      - What is the role of the State Government/UT in the establishment of technical institutions, according to the content?
+      - How does the State Government or Union Territory contribute to the setup of technical institutions, as mentioned in the content?
+      - What part does the State Government or Union Territory play in the creation of technical institutions, based on the information provided?
+      - Elaborate on the involvement of the State Government or Union Territory in the establishment of technical institutions, as per the content?
+      - Responsibilities does the State Government or Union Territory hold in the formation of technical institutions, according to the content?
+      - How is the State Government or Union Territory engaged in the founding process of technical institutions, according to the content?
+      - Insights into the State Government or Union Territory's role in the establishment of technical institutions, as outlined in the content?
+      - What specific functions does the State Government or Union Territory undertake concerning the setup of technical institutions, based on the content?
+      - In the context of technical institution establishment, what actions are expected from the State Government or Union Territory, according to the content?
+      - Specific duties and contributions of the State Government or Union Territory in the establishment of technical institutions, as per the content?
+
+  - intent: AICTE_handling_applications
+    examples: |
+      - How does AICTE handle applications for the establishment of technical institutions, and what is the role of the National Single Window System (NSWS)?
+      - What is the application process for establishing technical institutions with AICTE?
+      - Can you explain the steps involved in submitting applications to AICTE for new technical institutions?
+      - How does AICTE review and process applications from entities seeking to establish technical institutions?
+      - What role does the National Single Window System (NSWS) play in the AICTE application process for new technical institutions?
+      - Are there specific guidelines for submitting applications to AICTE regarding the establishment of technical institutions?
+      - How does AICTE manage the evaluation and approval of applications for starting technical institutions?
+      - Can you elaborate on the significance of the National Single Window System (NSWS) in the context of AICTE's handling of applications for technical institutions?
+      - What documentation and information are required when applying to AICTE for the creation of new technical institutions?
+      - How does the National Single Window System (NSWS) streamline the application process for aspiring technical institutions under AICTE?
+
+  - intent: time_frame_for_submission_and_consequences
+    examples: |
+      - Is there a specific time frame for the submission of applications, and what are the consequences of missing the deadline?
+      - When is the deadline for submitting applications, and what happens if I miss it?
+      - Is there a set timeframe for application submissions, and are there repercussions for not meeting the deadline?
+      - What is the submission deadline for applications, and what are the consequences of missing it?
+      - When do applications need to be submitted, and what are the implications if the deadline is not met?
+      - Is there a specific time limit for submitting applications, and what are the penalties for missing the deadline?
+      - When is the application deadline, and what happens if I submit after the specified timeframe?
+      - Is there a particular time frame for application submissions, and what are the repercussions if the deadline is not adhered to?
+      - When is the deadline for submitting applications, and what are the potential consequences for missing it?
+      - What is the timeframe for application submissions, and what are the outcomes of missing the specified deadline?
+
+  - intent: types_of_programs_for_approval
+    examples: |
+      - What types of programs can a new technical institution seek approval for?
+      - What are the various programs that a recently established technical institution can seek approval for?
+      - Which kinds of courses can a new technical institution apply for approval?
+      - What approval is needed for programs in a recently established technical institution?
+      - Can you provide information on the approval process for programs in a newly formed technical institution?
+      - What types of educational programs can a recently established technical institute pursue approval for?
+      - What is the process for seeking approval for different programs in a newly established technical institution?
+      - Could you outline the variety of programs that a new technical institution can apply for approval?
+      - What steps are involved in seeking approval for educational programs in a newly established technical institute?
+      - What categories of courses can a recently formed technical institution seek approval for?
+
+  - intent: eligibility_criteria_for_promoters
+    examples: |
+      - What are the eligibility criteria for promoters wishing to establish a new technical institution?
+      - What qualifications are required for individuals interested in becoming promoters for a new technical institution?
+      - Can you outline the prerequisites for individuals aspiring to be promoters in the establishment of a new technical institution?
+      - What are the necessary qualifications and criteria for individuals looking to become promoters in the setup of a new technical institution?
+      - Could you provide details on the eligibility requirements for those wishing to be promoters for a newly established technical institution?
+      - What qualifications must potential promoters possess when establishing a new technical institution?
+      - Are there specific criteria or qualifications that individuals need to meet to become promoters for a new technical institution?
+      - Can you share information on the eligibility criteria for promoters aiming to set up a new technical institution?
+      - What educational or professional qualifications are necessary for individuals interested in becoming promoters for a new technical institution?
+      - Could you elaborate on the requirements and criteria for individuals aspiring to be promoters for a new technical institution?
+
+  - intent: ineligibility_of_certain_programs
+    examples: |
+      - Why are institutions applying for the introduction of NRI/OCI/FN/Children of Indian Workers in the Gulf Countries/Twinning/Fellow Programs not eligible?
+      - What makes institutions ineligible when they apply for introducing NRI/OCI/FN/Children of Indian Workers in the Gulf Countries?
+      - Why do institutions face ineligibility when seeking to introduce NRI/OCI/FN/Children of Indian Workers in the Gulf Countries?
+      - What are the reasons behind institutions being deemed ineligible for programs like NRI/OCI/FN/Children of Indian Workers in Gulf Countries?
+      - Can you elaborate on the disqualification of institutions applying for NRI/OCI/FN/Children of Indian Workers in the Gulf Countries?
+      - What factors contribute to the ineligibility of institutions applying for NRI/OCI/FN/Children of Indian Workers in Gulf Countries or Twinning/Fellow Programs?
+      - Could you explain the criteria that lead to institutions not meeting eligibility when applying for NRI/OCI/FN/Children of Indian Workers in Gulf Countries?
+      - What are the specific requirements that result in institutions being ineligible for programs such as NRI/OCI/FN/Children of Indian Workers in the Gulf Countries?
+      - How are institutions disqualified when applying for the introduction of NRI/OCI/FN/Children of Indian Workers in the Gulf Countries?
+      - What specific conditions lead to the non-eligibility of institutions applying for NRI/OCI/FN/Children of Indian Workers in Gulf Countries or Twinning/Fellow Programs?
+
+  - intent: Ministry_of_Education_schemes_for_establishment
+    examples: |
+      - Can you provide details on Ministry of Education (MoE) schemes associated with the establishment of technical institutions?
+      - What are the specific schemes outlined by the Ministry of Education (MoE) for setting up technical institutions?
+      - Could you elaborate on the Ministry of Education (MoE) programs supporting the establishment of technical institutions?
+      - What schemes under the Ministry of Education (MoE) are relevant for those looking to establish technical institutions?
+      - How does one go about seeking approval under the Ministry of Education (MoE) schemes for establishing technical institutions?
+      - Can you outline the process for obtaining approval under the Ministry of Education (MoE) schemes for a new technical institution?
+      - What steps are involved in seeking approval from the Ministry of Education (MoE) for establishing a technical institution under their schemes?
+      - Which specific Ministry of Education (MoE) initiatives focus on the approval process for new technical institutions, and how can one apply for them?
+      - What are the guidelines and procedures for approval under Ministry of Education (MoE) schemes when establishing technical institutions?
+
+  - intent: consequences_of_not_shifting_location
+    examples: |
+      - What happens if an institution fails to relocate to its permanent location within the stipulated two-year period as per AICTE schemes?
+      - What steps does AICTE take when an institution approved under the specified schemes does not make the required shift to its permanent location within the given two-year timeframe?
+      - What are the consequences for an institution if it doesn't move to its permanent location within the prescribed two years under AICTE schemes?
+      - In the case of an institution approved under relevant AICTE schemes, what measures are taken if it doesn't complete the relocation to its permanent location within the designated two-year period?
+      - How does AICTE handle instances where an institution, approved under specific schemes, fails to shift to its permanent location within the mandated two-year period?
+      - What actions are taken by AICTE when an institution approved under the mentioned schemes doesn't adhere to the requirement of shifting to its permanent location within two years?
+      - What steps does AICTE follow when an institution, previously approved under specified schemes, does not complete the shift to its permanent location within the given two-year timeframe?
+      - If an institution approved under the mentioned schemes fails to relocate within two years, what measures does AICTE implement?
+      - What consequences does an institution face if it doesn't comply with the requirement of shifting to its permanent location within the stipulated two-year period under AICTE schemes?
+
+  - intent: existing_institutions_approval_by_AICTE
+    examples: |
+      - When can institutions approved by other regulatory bodies approach AICTE for initial approval?
+      - Under what conditions may institutions already sanctioned by different regulatory bodies apply for AICTE approval for the first time?
+      - What are the scenarios in which existing institutions, endorsed by other regulatory bodies, are eligible to seek initial approval from AICTE?
+      - In what situations can institutions, previously sanctioned by regulatory bodies, seek their first-time approval from AICTE?
+      - When is it appropriate for institutions with approvals from other regulatory bodies to seek their first-time approval from AICTE?
+      - Under what circumstances can institutions already approved by different regulatory bodies approach AICTE for their initial approval?
+      - What are the specific instances when institutions, sanctioned by other regulatory bodies, can seek AICTE approval for the first time?
+      - When are institutions, previously approved by different regulatory bodies, allowed to seek initial approval from AICTE?
+      - What conditions govern institutions with approvals from other regulatory bodies seeking approval from AICTE for the first time?
+
+  - intent: additional_charges_for_extra_committees
+    examples: |
+    - What are the potential extra fees associated with unique circumstances like an additional Scrutiny Committee during the application process?
+    - Are there any supplementary charges for exceptional situations, like requesting an additional Scrutiny Committee or an Expert Visit Committee?
+    - How much might an applicant be charged for extraordinary circumstances, such as the formation of an additional Scrutiny Committee or Expert Visit Committee?
+    - Are there additional costs for situations like having to involve an extra Scrutiny Committee or organizing an Expert Visit Committee?
+    - What kind of fees can an applicant expect in cases of extraordinary circumstances, such as the need for an additional Scrutiny Committee or an Expert Visit Committee?
+    - Could you outline the potential financial implications for applicants in cases of extraordinary circumstances, such as an extra Scrutiny Committee or Expert Visit Committee?
+    - In situations requiring an extra Scrutiny Committee or an Expert Visit Committee, are there specific charges or fees that an applicant needs to be aware of?
+    - How does the fee structure change for applicants facing exceptional circumstances, like requesting an additional Scrutiny Committee or an Expert Visit Committee?
+    - Are there specific charges associated with unique situations, like those requiring an additional Scrutiny Committee or Expert Visit Committee?
+
+  - intent: consequences_of_not_paying_TER_within_deadline
+    examples: |
+      - What happens if I miss the deadline for paying TER charges?
+      - Can you tell me the repercussions of not meeting the TER charges deadline?
+      - What are the consequences if I don't pay TER charges on time?
+      - What happens when TER charges aren't paid within the specified deadline?
+      - Are there penalties for late payment of TER charges?
+      - Can you explain the impact of missing the TER charges payment deadline?
+      - What are the repercussions of failing to pay TER charges by the due date?
+      - Are there any negative effects if I don't pay my TER charges on time?
+      - Could you clarify what happens if I neglect to pay TER charges within the deadline?
+
+  - intent: importance_of_online_application_through_NSWS
+    examples: |
+      - Why is it crucial to utilize the NSWS platform for online applications when seeking initial approval from AICTE as an institution?
+      - What advantages does submitting an online application through NSWS offer to institutions applying for AICTE approval for the first time?
+      - Can you elaborate on the significance of institutions opting for the NSWS platform when making their initial approval applications to AICTE?
+      - How does the online application process through NSWS contribute to the efficiency of institutions seeking approval from AICTE for the first time?
+      - What benefits do institutions gain by choosing the NSWS platform for their initial approval applications to AICTE?
+      - In what ways does submitting an online application through NSWS enhance the approval process for institutions seeking recognition from AICTE for the first time?
+      - What unique features of the NSWS platform make it advantageous for institutions applying for AICTE approval for the first time?
+      - How does the NSWS platform streamline the application process for institutions seeking initial approval from AICTE?
+      - Can you explain the role of the NSWS platform in simplifying the approval-seeking process for institutions approaching AICTE for the first time?
+
+  - intent: AICTE_handling_refund_or_excess_payment
+    examples: |
+      - Can you explain the AICTE process for managing refunds or excess payments for eligible institutions?
+      - How are refunds handled by AICTE in cases where institutions are eligible for them?
+      - What is the procedure followed by AICTE to address excess payments for eligible institutions?
+      - Can you provide details on AICTE's approach to managing refunds for institutions that qualify?
+      - How does AICTE manage excess payments or refunds for institutions that meet the eligibility criteria?
+      - What steps does AICTE take to handle refunds or excess payments for eligible institutions?
+      - Could you elaborate on how AICTE deals with excess payments or refunds for institutions that are eligible?
+      - What is the policy of AICTE regarding the refund process for eligible institutions?
+      - How does AICTE process excess payments or refunds for institutions meeting the eligibility criteria?
+
+  - intent: USER_ID_allotment_and_associated_cost
+    examples: |
+      - How do I obtain a USER ID for a new application to establish a Technical Institution, and is there any cost involved?
+      - Can you provide details on acquiring a USER ID for a new application in the process of setting up a Technical Institution? Are there associated costs?
+      - What steps are involved in obtaining a USER ID for a new application for a Technical Institution, and can you shed light on any related costs?
+      - How can I get a USER ID for the application to establish a new Technical Institution, and what fees are associated with this process?
+      - What is the procedure for obtaining a USER ID when applying for the establishment of a Technical Institution, and are there any charges involved?
+      - Could you explain the process of acquiring a USER ID for a new application to set up a Technical Institution, including details on associated costs?
+      - What are the steps for obtaining a USER ID for a new application in the context of establishing a Technical Institution, and is there a fee for this?
+      - Can you guide me through the process of securing a USER ID for a new application to establish a Technical Institution and provide insights into any costs involved?
+      - How do I go about obtaining a USER ID for a new application related to setting up a Technical Institution, and what is the cost structure associated with it?
+
+  - intent: procedure_for_password_recovery_and_charges
+    examples: |
+      - How can an existing institution recover a forgotten password, and is there a specific procedure to follow?
+      - What steps should an institution take if they've lost access to their password? Is there a specific process in place?
+      - In the event of an existing institution forgetting their password, what is the protocol for obtaining a new one?
+      - If a registered institution forgets its password, what is the recommended course of action to reset it?
+      - How does an established institution go about recovering a lost password, and are there any associated charges for this process?
+      - What is the official procedure for an existing institution to recover or reset a forgotten password?
+      - If a registered institution can't access their account due to a forgotten password, what steps should they follow?
+      - Is there a specific process for an existing institution to regain access to their account in case of a forgotten password?
+      - What are the steps an institution needs to take to retrieve a lost password, and are there any fees associated with this recovery process?
+
+  - intent: TER_charges_calculation_and_annual_increase
+    examples: |
+      - What is the method for calculating TER Charges for various institution types, and is there a standardized formula?
+      - Can you explain the process of determining TER Charges for different categories of institutions?
+      - How are TER Charges computed for diverse institution types, and are there distinct calculation methods?
+      - Is there a specific formula or guideline for calculating TER Charges based on the type of institution?
+      - What factors contribute to the calculation of TER Charges, and do they differ for each institution category?
+      - Could you provide insights into the computation of TER Charges, considering the unique characteristics of various institution types?
+      - Are there specific considerations or variables taken into account when calculating TER Charges for different institutions?
+      - How is the annual increase percentage for TER Charges determined, and are there any consistent factors influencing this rate?
+      - What criteria are used to assess the annual increase percentage for TER Charges across various institution types?
+
+  - intent: eligibility_for_TER_charge_refund
+    examples: |
+      - When can an applicant get a refund for TER Charges?
+      - What conditions make an applicant eligible for a refund of TER Charges?
+      - Under what situations is an applicant entitled to a TER Charges refund?
+      - What makes an applicant qualify for a refund of TER Charges?
+      - In what scenarios can an applicant receive a refund for TER Charges?
+      - When does an applicant become eligible for a TER Charges refund?
+      - What circumstances lead to an applicant being refunded TER Charges?
+      - Under what conditions can an applicant claim a refund for TER Charges?
+      - What criteria determine an applicant's eligibility for a TER Charges refund?
+
+  - intent: precautions_for_data_entry_and_submission
+    examples: |
+      - How can applicants ensure the security of their data during the online application process?
+      - What safety measures should applicants consider when entering and submitting data online?
+      - What steps can applicants take to protect their information while completing the online application?
+      - How to safeguard personal information during the online application submission?
+      - What precautions are recommended for data security when applying online?
+      - Are there specific guidelines for secure data entry and submission in online applications?
+      - What security tips should applicants follow when entering sensitive details in an online application?
+      - How can applicants prevent potential data breaches during the online application process?
+      - Are there best practices for ensuring the privacy of personal information during online application submissions?
+      - What safety measures are advisable for applicants to take when inputting and submitting data online?
+
+  - intent: significance_of_Digital_Signature_Certificate
+    examples: |
+      - What is the significance of institutions needing to provide applications with a Digital Signature Certificate (DSC)?
+      - Could you explain the necessity for institutions to include a Digital Signature Certificate (DSC) when submitting applications?
+      - What role does a Digital Signature Certificate (DSC) play in the application submission process for institutions?
+      - Why is it a requirement for institutions to attach a Digital Signature Certificate (DSC) when applying for approval?
+      - Can you elaborate on the reason behind institutions being obligated to use a Digital Signature Certificate (DSC) in their application submissions?
+      - What purpose does the inclusion of a Digital Signature Certificate (DSC) serve for institutions during the application process?
+      - Could you provide insights into the mandatory nature of institutions submitting applications with a Digital Signature Certificate (DSC)?
+      - What benefits or security measures does a Digital Signature Certificate (DSC) offer, making it mandatory for institutions in their application submissions?
+      - How does the use of a Digital Signature Certificate (DSC) enhance the application submission process for institutions, leading to its mandatory requirement?
+
+  - intent: significance_of_Affidavit_2_and_consequences_of_false_info
+    examples: |
+      - Can you explain the importance of Affidavit 2 in AICTE processes, and what consequences may arise for providing incorrect information?
+      - What role does Affidavit 2 play in AICTE, and what measures can AICTE take if the information provided is inaccurate?
+      - Why is Affidavit 2 significant in AICTE procedures, and what are the repercussions for submitting false details?
+      - Could you elaborate on the relevance of Affidavit 2 within AICTE, and what actions might be taken for misinformation?
+      - What is the purpose of Affidavit 2 in AICTE, and what penalties could be imposed for misinformation?
+      - How does Affidavit 2 impact AICTE processes, and what steps can AICTE take if false information is detected?
+      - Can you outline the importance of Affidavit 2 in AICTE, and what consequences applicants might face for providing inaccurate details?
+      - What significance does Affidavit 2 hold in AICTE, and what actions may be initiated if false information is identified?
+      - Why is it crucial to understand Affidavit 2 in AICTE, and what measures can AICTE implement in case of misleading information?
+
+  - intent: mandatory_submission_to_State_Government_and_affiliating_University
+    examples:
+      - What is the significance of submitting the application to both the State Government/UT and the affiliating University/Board?
+      - Why do applicants need to provide a copy of the application to both the State Government/UT and the affiliating University/Board?
+      - What role does the State Government/UT play in the application process for new institutions?
+      - How does submitting the application to the affiliating University/Board impact the approval process?
+      - Can you explain the necessity of dual submission to both the State Government/UT and affiliating University/Board during the application process?
+      - In the establishment of new institutions, why is it mandatory to share the application with both the State Government/UT and affiliating University/Board?
+      - The reasons behind applicants being required to send their applications to both the State Government/UT and the affiliating University/Board
+      - How does the submission of applications to both the State Government/UT and the affiliating University/Board contribute to the approval process for new institutions?
+
+  - intent: timeline_for_views_from_State_Government_and_affiliating_University
+    examples:
+      - How long does it take for the State Government or Union Territory to provide feedback on the application?
+      - What's the typical duration for the State Government or UT to share their opinions on the application process?
+      - Can you provide information on the timeframe for the State Government or UT to respond to the application?
+      - How much time does the affiliating University or Board usually take to forward their views on the application?
+      - Expected timeline for the State Government or UT to convey their thoughts on the submitted application
+      - How soon can we expect feedback from the affiliating University or Board regarding the application?
+      - What's the anticipated duration for the State Government or UT to review and respond to the application?
+      - Can you share insights into the general timeline for the affiliating University or Board to provide their input on the application?
+
+  - intent: lifting_of_moratorium_for_new_institutions
+    examples:
+      - Why was the moratorium lifted for establishing new engineering and technology institutions starting from the Academic Year 2023-24?
+      - What does the lifting of the moratorium mean for the establishment of new engineering and technology institutions in the academic year 2023-24?
+      - What led to the decision to lift the moratorium for the creation of new institutions in the field of engineering and technology, starting from the academic year 2023-24?
+      - How will the lifting of the moratorium impact the landscape of engineering and technology institutions in the academic year 2023-24?
+      - What factors influenced the decision to lift the moratorium on establishing new engineering and technology institutions for the Academic Year 2023-24?
+      - Elaborate on the implications of lifting the moratorium for the establishment of new institutions in engineering and technology in the upcoming academic year 2023-24
+      - What changes or developments prompted the decision to remove the moratorium on establishing new engineering and technology institutions starting in the Academic Year 2023-24?
+      - In what ways will the lifting of the moratorium for establishing new institutions in engineering and technology impact the educational landscape for the Academic Year 2023-24?
+
+  - intent: requirements_and_eligibility_for_Promoter_Trust_Society_Company
+    examples:
+      - Requirements and eligibility criteria for a Promoter Trust/Society/Company to establish a new technical institution
+      - What prerequisites must a Promoter Trust, Society, or Company fulfill to establish a new technical institution?
+      - Outline the eligibility criteria for a Promoter Trust, Society, or Company looking to establish a new technical institution
+      - Requirements for a Promoter Trust/Society/Company to establish a new technical Institution?
+      - What criteria must be met by a Promoter Trust, Society, or Company to be eligible for establishing a new technical institution?
+      - List the mandatory requirements and eligibility conditions for a Promoter Trust, Society, or Company planning to launch a new technical institution
+      - What documentation and conditions does a Promoter Trust, Society, or Company need to fulfill when establishing a new technical institution?
+      - Are there specific prerequisites that a Promoter Trust, Society, or Company must meet to be considered eligible for establishing a new technical institution?
+      - Key qualifications and conditions for a Promoter Trust, Society, or Company wanting to establish a new technical institution
+      - Outline the essential criteria that a Promoter Trust, Society, or Company should adhere to in order to establish a new technical institution
+
+  - intent: minimum_funds_required_for_proof_of_operational_expenses
+    examples: 
+      - Minimum financial commitment needed to cover operational expenses for the proposed programs in a technical institution
+      - Can you provide details on the required minimum funding to support operational expenses for the different programs proposed by a technical institution?
+      - What is the specified amount of funds needed to demonstrate operational viability for the proposed programs in a technical institution?
+      - How much financial proof is required to cover operational costs for each of the proposed programs in a technical institution?
+      - Minimum funds necessary to ensure the operational sustainability of the various programs outlined by a technical institution
+      - Can you elaborate on the minimum budgetary requirements needed as evidence for operational expenses across the proposed programs in a technical institution?
+      - What is the anticipated minimum funding benchmark for operational costs associated with the proposed programs in a technical institution?
+      - How much financial backing is required as proof of operational capability for the diverse programs suggested by a technical institution?
+      - Outline the minimum financial commitments needed to substantiate operational expenses for the proposed programs in a technical institution
+      - What are the specified funds required to substantiate the operational costs for the programs proposed by a technical institution?
+
+  - intent: building_plan_requirements_and_approval
+    examples:
+      - What specifications should be included in the building plans for a technical institution, and which authority is responsible for approving them?
+      - Outline the necessary elements in the building plans for a technical institution
+      - What are the key components that should be incorporated into the building plans for a technical institution?
+      - Could you detail the building plan prerequisites for a technical institution, and which organization is in charge of endorsing these plans?
+      - Who holds the authority to grant approval for the building plan?
+      - Provide insights into the building plan requirements for a technical institution
+      - What are the specific criteria for building plans in a technical institution, and which governing authority must provide approval?
+      - Who is authorized to give approval for these plans for a technical institution?
+      - Can you outline the building plan requirements for a technical institution, and specify the approving authority for these plans?
+
+  - intent: qualifications_required_for_head_of_technical_institution
+    examples:
+      - Who should be named as the head of a technical institution, and what qualifications are required (section 1.5.1d)?
+      - What are the qualifications needed for someone to become the head of a technical institution?
+      - Who should be appointed as the head of a technical institution, and what educational background is ideal for this role?
+      - What qualifications should a person have to be considered for the position of head in a technical institution?
+      - Can you provide information on the qualifications required for the head of a technical institution?
+      - Who is eligible to be the head of a technical institution, and what academic credentials are necessary?
+      - What are the prerequisites for someone to be appointed as the head of a technical institution?
+      - Could you share details on the qualifications needed for the head of a technical institution?
+      - Who should be chosen as the head of a technical institution, and what educational qualifications are essential for the role?
+
+  - intent: existing_institutions_applying_for_closure_and_starting_new_institution
+    examples:
+      - Is it possible for institutions in the process of closure to simultaneously apply to establish a new technical institution on the same premises during the same academic year?
+      - Can institutions undergoing closure procedures also submit applications for initiating a new technical institution at the same location within the same academic year?
+      - Is there a provision for institutions currently in the closure process to seek approval for starting a new technical institution at the same premises in the same academic year?
+      - Are there any restrictions for institutions seeking closure to concurrently apply for the establishment of a new technical institution on the same premises in the same academic year?
+      - Can institutions that have initiated closure proceedings also pursue approval for launching a new technical institution within the same premises during the same academic year?
+      - Is it permissible for institutions applying for closure to simultaneously apply for the creation of a new technical institution at the same location within the same academic year?
+      - Are there any regulations allowing institutions in the closure process to apply for starting a new technical institution on the same premises in the same academic year?
+      - Can institutions in the process of closure put forward applications for commencing a new technical institution at the same location within the same academic year?
+      - Is it allowed for institutions undergoing closure to apply for the establishment of a new technical institution at the same premises in the same academic year?
+
+  - intent: outcomes_of_approval_under_section_1.5.2a
+    examples:
+      - What are the next steps after the approval of the application to start a new technical institution?
+      - Once the application for a new technical institution is approved, what follows in the process?
+      - What changes or preparations are required after the successful approval of a new technical institution application?
+      - Could you provide insights into the process that unfolds after the approval of a new technical institution application?
+      - In the event of approval, what procedures need to be undertaken for initiating the new technical institution?
+      - How does the landscape change for a new technical institution after receiving approval for its establishment?
+      - What is the timeline for implementation following the approval of the application to start a new technical institution?
+      - Are there specific requirements or protocols to be followed immediately after the approval of a new technical institution application?
+      - After the approval, what are the considerations and actions needed to kickstart operations for the new technical institution?
+
+  - intent: fund_position_requirements_in_terms_of_FDRs_and_bank_accounts
+    examples: 
+      - How does the applicant's financial standing look concerning Fixed Deposits (FDRs) and bank accounts?
+      - Can you provide details about the applicant's financial position, particularly in terms of Fixed Deposits (FDRs) and bank accounts?
+      - What is the status of the applicant's funds when considering Fixed Deposits (FDRs) and bank accounts?
+      - Could you share information on the applicant's financial health, specifically regarding Fixed Deposits (FDRs) and bank accounts?
+      - What does the applicant's fund position look like in Fixed Deposits (FDRs) and bank accounts?
+      - Can you elaborate on the applicant's financial stability, especially in relation to Fixed Deposits (FDRs) and bank accounts?
+      - How are the applicant's funds structured in terms of Fixed Deposits (FDRs) and bank accounts?
+      - What is the applicant's financial status concerning Fixed Deposits (FDRs) and bank accounts?
+      - Could you provide insights into the applicant's financial portfolio, specifically focusing on Fixed Deposits (FDRs) and bank accounts?
+
+  - intent: requirements_for_Government_Government-Aided_Institutions_Central_State_Universities
+    examples:
+      - What are the budgetary prerequisites for Government and Government-Aided Institutions in terms of land and built-up area?
+      - Can you outline the minimal budget provision and land/built-up area requirements for Central and State Universities?
+      - What are the mandatory budget allocations and land/built-up area criteria for Government-Aided Institutions at both Central and State levels?
+      - Could you provide details on the minimum budget provisions and land/built-up area specifications for Central and State Government educational institutions?
+      - What is the stipulated budget provision and land/built-up area needed for Government and Government-Aided institutions, particularly in Central and State Universities?
+      - Can you elaborate on the essential financial allocations and land/built-up area prerequisites for Government and Government-Aided educational institutions?
+      - What are the minimum budgetary requirements and land/built-up area specifications for Central and State Government institutions, particularly in the educational sector?
+      - Could you provide insights into the mandatory budget provisions and land/built-up area criteria for Government and Government-Aided institutions, specifically in Central and State Universities?
+      - What are the baseline financial allocations and land/built-up area expectations for Government, Government-Aided, and Central/State University institutions?
+
+  - intent: restrictions_on_use_of_names_for_new_technical_institution
+    examples:
+      - Are there limitations on the names of new technical institutions, specifically regarding the use of abbreviations and certain words?
+      - What rules govern the naming of a new technical institution, especially when it comes to abbreviations and specific words?
+      - Can you provide guidelines on the permissible use of names, including abbreviations and specific words, for a newly established technical institution?
+      - What restrictions exist for naming a new technical institution, particularly in relation to the use of abbreviations and specific words?
+      - Are there any regulations or constraints on the choice of names for a newly formed technical institution, especially concerning abbreviations and certain terms?
+      - Could you elaborate on the constraints regarding the naming conventions for a recently established technical institution, with a focus on abbreviations and particular words?
+      - What are the considerations and limitations regarding the names, including abbreviations and certain words, for a new technical institution?
+      - Are there specific guidelines or restrictions concerning the names of new technical institutions, particularly addressing the use of abbreviations and specific language?
+      - Can you provide insights into the naming policies for new technical institutions, highlighting any constraints related to abbreviations and certain terminology?
+
+  - intent: differentiation_of_existing_institutions_with_same_name_within_state
+    examples:
+      - What strategies can institutions with identical names in a state employ to distinguish themselves from one another?
+      - How can educational institutions sharing the same name in a state establish unique identities to avoid confusion?
+      - What steps should be taken by similarly named institutions within a state to set themselves apart in terms of branding and recognition?
+      - In a state where institutions share identical names, what approaches can be adopted for differentiation and individuality?
+      - How do educational entities with the same name in a state create distinct identities to stand out in the local landscape?
+      - What measures can institutions with the same name within a state implement to ensure they are easily distinguishable and recognized?
+      - What strategies exist for educational institutions sharing identical names within a state to differentiate themselves effectively?
+      - How can similarly named institutions in a state strategically position themselves to avoid confusion and enhance their uniqueness?
+      - What actions should institutions with the same name in a state take to create clear distinctions and enhance their individual profiles?
