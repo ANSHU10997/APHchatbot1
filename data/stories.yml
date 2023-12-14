@@ -103,7 +103,182 @@ stories:
   steps:
   - intent: noc_process
   - action: utter_noc_process
-  
+
+- story: Ask about Prerequisites for Establishing Technical Institution
+  steps:
+    - intent: prerequisites_for_establishing_technical_institution
+    - action: utter_prerequisites_for_establishing_technical_institution
+
+- story: Inquire about the Significance of Adhering to Laws
+  steps:
+    - intent: significance_of_adhering_to_laws
+    - action: utter_significance_of_adhering_to_laws
+
+- story: Ask about the Role of State Government in Establishment
+  steps:
+    - intent: role_of_state_government_in_establishment
+    - action: utter_role_of_state_government_in_establishment
+
+- story: Inquire about AICTE Handling Applications
+  steps:
+    - intent: AICTE_handling_applications
+    - action: utter_AICTE_handling_applications
+
+- story: Ask about Time Frame for Submission and Consequences
+  steps:
+    - intent: time_frame_for_submission_and_consequences
+    - action: utter_time_frame_for_submission_and_consequences
+
+- story: Inquire about Types of Programs for Approval
+  steps:
+    - intent: types_of_programs_for_approval
+    - action: utter_types_of_programs_for_approval
+
+- story: Ask about Eligibility Criteria for Promoters
+  steps:
+    - intent: eligibility_criteria_for_promoters
+    - action: utter_eligibility_criteria_for_promoters
+
+- story: Inquire about Ineligibility of Certain Programs
+  steps:
+    - intent: ineligibility_of_certain_programs
+    - action: utter_ineligibility_of_certain_programs
+
+- story: Ask about Ministry of Education Schemes for Establishment
+  steps:
+    - intent: Ministry_of_Education_schemes_for_establishment
+    - action: utter_Ministry_of_Education_schemes_for_establishment
+
+- story: Inquire about Consequences of Not Shifting Location
+  steps:
+    - intent: consequences_of_not_shifting_location
+    - action: utter_consequences_of_not_shifting_location
+
+- story: Ask about Existing Institutions Approval by AICTE
+  steps:
+    - intent: existing_institutions_approval_by_AICTE
+    - action: utter_existing_institutions_approval_by_AICTE
+
+- story: Inquire about Additional Charges for Extra Committees
+  steps:
+    - intent: additional_charges_for_extra_committees
+    - action: utter_additional_charges_for_extra_committees
+
+- story: Ask about Consequences of Not Paying TER Within Deadline
+  steps:
+    - intent: consequences_of_not_paying_TER_within_deadline
+    - action: utter_consequences_of_not_paying_TER_within_deadline
+
+- story: Inquire about Importance of Online Application through NSWS
+  steps:
+    - intent: importance_of_online_application_through_NSWS
+    - action: utter_importance_of_online_application_through_NSWS
+
+- story: Ask about AICTE Handling Refund or Excess Payment
+  steps:
+    - intent: AICTE_handling_refund_or_excess_payment
+    - action: utter_AICTE_handling_refund_or_excess_payment
+
+- story: Inquire about USER ID Allotment and Associated Cost
+  steps:
+    - intent: USER_ID_allotment_and_associated_cost
+    - action: utter_USER_ID_allotment_and_associated_cost
+
+- story: Ask about Procedure for Password Recovery and Charges
+  steps:
+    - intent: procedure_for_password_recovery_and_charges
+    - action: utter_procedure_for_password_recovery_and_charges
+
+- story: Inquire about TER Charges Calculation and Annual Increase
+  steps:
+    - intent: TER_charges_calculation_and_annual_increase
+    - action: utter_TER_charges_calculation_and_annual_increase
+
+- story: Ask about Eligibility for TER Charge Refund
+  steps:
+    - intent: eligibility_for_TER_charge_refund
+    - action: utter_eligibility_for_TER_charge_refund
+
+- story: Inquire about Precautions for Data Entry and Submission
+  steps:
+    - intent: precautions_for_data_entry_and_submission
+    - action: utter_precautions_for_data_entry_and_submission
+
+- story: Ask about Significance of Digital Signature Certificate
+  steps:
+    - intent: significance_of_Digital_Signature_Certificate
+    - action: utter_significance_of_Digital_Signature_Certificate
+
+- story: Inquire about Significance of Affidavit 2 and Consequences of False Info
+  steps:
+    - intent: significance_of_Affidavit_2_and_consequences_of_false_info
+    - action: utter_significance_of_Affidavit_2_and_consequences_of_false_info
+
+- story: Ask about Mandatory Submission to State Government and Affiliating University
+  steps:
+    - intent: mandatory_submission_to_State_Government_and_affiliating_University
+    - action: utter_mandatory_submission_to_State_Government_and_affiliating_University
+
+- story: Inquire about Timeline for Views from State Government and Affiliating University
+  steps:
+    - intent: timeline_for_views_from_State_Government_and_affiliating_University
+    - action: utter_timeline_for_views_from_State_Government_and_affiliating_University
+
+- story: Ask about Lifting of Moratorium for New Institutions
+  steps:
+    - intent: lifting_of_moratorium_for_new_institutions
+    - action: utter_lifting_of_moratorium_for_new_institutions
+
+- story: Inquire about Requirements and Eligibility for Promoter Trust Society Company
+  steps:
+    - intent: requirements_and_eligibility_for_Promoter_Trust_Society_Company
+    - action: utter_requirements_and_eligibility_for_Promoter_Trust_Society_Company
+
+- story: Ask about Minimum Funds Required for Proof of Operational Expenses
+  steps:
+    - intent: minimum_funds_required_for_proof_of_operational_expenses
+    - action: utter_minimum_funds_required_for_proof_of_operational_expenses
+
+- story: Inquire about Building Plan Requirements and Approval
+  steps:
+    - intent: building_plan_requirements_and_approval
+    - action: utter_building_plan_requirements_and_approval
+
+- story: Ask about Qualifications Required for Head of Technical Institution
+  steps:
+    - intent: qualifications_required_for_head_of_technical_institution
+    - action: utter_qualifications_required_for_head_of_technical_institution
+
+- story: Inquire about Existing Institutions Applying for Closure and Starting New Institution
+  steps:
+    - intent: existing_institutions_applying_for_closure_and_starting_new_institution
+    - action: utter_existing_institutions_applying_for_closure_and_starting_new_institution
+
+- story: Ask about Outcomes of Approval under Section 1.5.2a
+  steps:
+    - intent: outcomes_of_approval_under_section_1.5.2a
+    - action: utter_outcomes_of_approval_under_section_1.5.2a
+
+- story: Inquire about Fund Position Requirements in Terms of FDRs and Bank Accounts
+  steps:
+    - intent: fund_position_requirements_in_terms_of_FDRs_and_bank_accounts
+    - action: utter_fund_position_requirements_in_terms_of_FDRs_and_bank_accounts
+
+- story: Ask about Requirements for Government Government-Aided Institutions Central State Universities
+  steps:
+    - intent: requirements_for_Government_Government-Aided_Institutions_Central_State_Universities
+    - action: utter_requirements_for_Government_Government-Aided_Institutions_Central_State_Universities
+
+- story: Inquire about Restrictions on Use of Names for New Technical Institution
+  steps:
+    - intent: restrictions_on_use_of_names_for_new_technical_institution
+    - action: utter_restrictions_on_use_of_names_for_new_technical_institution
+
+- story: Ask about Differentiation of Existing Institutions with Same Name within State
+  steps:
+    - intent: differentiation_of_existing_institutions_with_same_name_within_state
+    - action: utter_differentiation_of_existing_institutions_with_same_name_within_state
+    
 - story: Say Goodbye
   steps:
     - intent: goodbye
