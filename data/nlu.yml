@@ -217,7 +217,6 @@ nlu:
       - How is the determination made regarding the inclusion of normal subjects in the school curriculum, and what important rules are followed?
       - Can you explain the process of deciding what students study in school and the crucial rules that influence this decision?
       - What criteria are followed in determining the regular school content included in the curriculum, and what rules are considered significant?
-      - How do authorities decide on the selection of regu
 
   - intent: completing_skill_modules_acquiring_credits
     examples: |

@@ -52,22 +52,22 @@ rules:
       - intent: role_general_education_component
       - action: utter_role_general_education_component
 
-  - rule: if the user asks anything about "Emphasis on Credit-based Modular Programs for voactional education" respond with action ""
+  - rule: if the user asks anything about "Emphasis on Credit-based Modular Programs for voactional education" respond with action "utter_emphasis_credit_based_modular_programs"
     steps:
       - intent: emphasis_credit_based_modular_programs
       - action: utter_emphasis_credit_based_modular_programs
 
-  - rule: Focus on Skill Development Component Design
+  - rule: if the user asks anything about design the curriculum for acquiring skills, respond with action "utter_focus_skill_development_component_design"
     steps:
       - intent: focus_skill_development_component_design
       - action: utter_focus_skill_development_component_design
 
-  - rule: National Occupational Standards (NOS)
+  - rule: if the user asks anything about absence of "National Occupational Standards (NOS)" respond with action "utter_national_occupational_standards"
     steps:
       - intent: national_occupational_standards
       - action: utter_national_occupational_standards
 
-  - rule: Curriculum Emphasis on Work-Readiness Skills
+  - rule: if the user asks anything about "What is the primary focus of the school plan in developing skills for the workplace, and why is it valued?" respond with action "utter_curriculum_emphasis_work_readiness_skills"
     steps:
       - intent: curriculum_emphasis_work_readiness_skills
       - action: utter_curriculum_emphasis_work_readiness_skills
