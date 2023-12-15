@@ -154,8 +154,8 @@ rules:
 
 - rule: Respond to queries about the consequences of not shifting location
   steps:
-    - intent: consequences_of_not_shifting_location
-    - action: utter_consequences_of_not_shifting_location
+  - intent: consequences_of_not_shifting_location
+  - action: utter_consequences_of_not_shifting_location
 
 - rule: Respond to queries about existing institutions' approval by AICTE
   steps:
