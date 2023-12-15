@@ -199,8 +199,8 @@ rules:
 
 - rule: Respond to queries about eligibility for TER charge refund
   steps:
-    - intent: eligibility_for_TER_charge_refund
-    - action: utter_eligibility_for_TER_charge_refund
+  - intent: eligibility_for_TER_charge_refund
+  - action: utter_eligibility_for_TER_charge_refund
 
 - rule: Respond to queries about precautions for data entry and submission
   steps:
