@@ -39,8 +39,8 @@ rules:
 
   - rule: if the user asks anything about Curriculum Mix in Vocational Education i.e., balance between traditional learning and practical learning, respond with action "utter_curriculum_mix_vocational_education"
     steps:
-      - intent: curriculum_mix_vocational_education
-      - action: utter_curriculum_mix_vocational_education
+    - intent: curriculum_mix_vocational_education
+    - action: utter_curriculum_mix_vocational_education
 
   - rule: if the user asks anything about "who hold the authority to approve the content of our educational curriculum" respond with action "utter_curriculum_approval_oversight"
     steps:
