@@ -399,3 +399,11 @@ class ActionSignificanceOfDigitalSignatureCertificate(Action):
     def run(self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
         dispatcher.utter_message("Institutions are required to submit applications with a DSC to ensure the authenticity of the documents. Any document uploaded without a Digital Signature will not be considered valid.")
         return []
+
+class ActionSignificanceOfAffidavit2AndConsequencesOfFalseInfo(Action):
+    def name(self) -> Text:
+        return "utter_significance_of_Affidavit_2_and_consequences_of_false_info"
+
+    def run(self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+        dispatcher.utter_message("Affidavit 2, sworn before a First Class Judicial Magistrate or Public Notary, is a legal declaration. In case of false information, AICTE may invoke civil and/or criminal provisions as per the regulations in place.")
+        return []
