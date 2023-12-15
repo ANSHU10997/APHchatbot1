@@ -482,3 +482,77 @@ rules:
       - intent: precautions_for_data_entry_and_submission
       - action: utter_precautions_for_data_entry_and_submission
 
+  - story: Significance of Digital Signature Certificate
+    steps:
+      - intent: significance_of_Digital_Signature_Certificate
+      - action: utter_significance_of_DSC
+
+  - story: Importance of Affidavit 2 and Consequences of False Information
+    steps:
+      - intent: significance_of_Affidavit_2_and_consequences_of_false_info
+      - action: utter_affidavit_2_importance_and_consequences
+
+  - story: Mandatory Submission to State Government and Affiliating University
+    steps:
+      - intent: mandatory_submission_to_State_Government_and_affiliating_University
+      - action: utter_mandatory_submission_requirements
+
+  - story: Timeline for Views from State Government and Affiliating University
+    steps:
+      - intent: timeline_for_views_from_State_Government_and_affiliating_University
+      - action: utter_timeline_for_views
+
+  - story: Lifting of Moratorium for New Institutions
+    steps:
+      - intent: lifting_of_moratorium_for_new_institutions
+      - action: utter_lifting_of_moratorium_implications
+
+  - story: Requirements and Eligibility for Promoter Trust/Society/Company
+    steps:
+      - intent: requirements_and_eligibility_for_Promoter_Trust_Society_Company
+      - action: utter_promoter_requirements
+
+  - story: Minimum Funds Required for Proof of Operational Expenses
+    steps:
+      - intent: minimum_funds_required_for_proof_of_operational_expenses
+      - action: utter_minimum_funds_requirements
+
+  - story: Building Plan Requirements and Approval
+    steps:
+      - intent: building_plan_requirements_and_approval
+      - action: utter_building_plan_requirements
+
+  - story: Qualifications Required for Head of Technical Institution
+    steps:
+      - intent: qualifications_required_for_head_of_technical_institution
+      - action: utter_head_qualifications
+
+  - story: Existing Institutions Applying for Closure and Starting New Institution
+    steps:
+      - intent: existing_institutions_applying_for_closure_and_starting_new_institution
+      - action: utter_closure_and_new_institution
+
+  - story: Outcomes of Approval under Section 1.5.2a
+    steps:
+      - intent: outcomes_of_approval_under_section_1.5.2a
+      - action: utter_approval_outcomes
+
+  - story: Fund Position Requirements in Terms of FDRs and Bank Accounts
+    steps:
+      - intent: fund_position_requirements_in_terms_of_FDRs_and_bank_accounts
+      - action: utter_fund_position_requirements
+
+  - story: Requirements for Government, Government-Aided Institutions, Central/State Universities
+    steps:
+      - intent: requirements_for_Government_Government-Aided_Institutions_Central_State_Universities
+      - action: utter_requirements_for_government_institutions
+
+  - story: Restrictions on Use of Names for New Technical Institution
+    steps:
+      - intent: restrictions_on_use_of_names_for_new_technical_institution
+      - action: utter_name_restrictions
+
+  - story: Differentiation of Existing Institutions with Same Name within State
+    steps:
+      - intent: differentiation_of_existing_institutions_with_same_name_within_state
+      - action: utter_differentiation_strategies
