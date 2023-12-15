@@ -209,8 +209,8 @@ rules:
 
 - rule: Respond to queries about the significance of Digital Signature Certificate
   steps:
-    - intent: significance_of_Digital_Signature_Certificate
-    - action: utter_significance_of_Digital_Signature_Certificate
+  - intent: significance_of_Digital_Signature_Certificate
+  - action: utter_significance_of_Digital_Signature_Certificate
 
 - rule: Respond to queries about the significance of Affidavit 2 and consequences of false info
   steps:
