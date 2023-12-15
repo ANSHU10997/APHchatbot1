@@ -54,8 +54,8 @@ rules:
 
 - rule: if the user asks anything about "Emphasis on Credit-based Modular Programs for voactional education" respond with action "utter_emphasis_credit_based_modular_programs"
   steps:
-    - intent: emphasis_credit_based_modular_programs
-    - action: utter_emphasis_credit_based_modular_programs
+  - intent: emphasis_credit_based_modular_programs
+  - action: utter_emphasis_credit_based_modular_programs
 
 - rule: if the user asks anything about design the curriculum for acquiring skills, respond with action "utter_focus_skill_development_component_design"
   steps:
