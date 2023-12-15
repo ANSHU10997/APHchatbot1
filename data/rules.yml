@@ -204,8 +204,8 @@ rules:
 
 - rule: Respond to queries about precautions for data entry and submission
   steps:
-    - intent: precautions_for_data_entry_and_submission
-    - action: utter_precautions_for_data_entry_and_submission
+  - intent: precautions_for_data_entry_and_submission
+  - action: utter_precautions_for_data_entry_and_submission
 
 - rule: Respond to queries about the significance of Digital Signature Certificate
   steps:
