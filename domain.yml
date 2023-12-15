@@ -189,7 +189,7 @@ responses:
   - text: "Applications submitted under Clause 1.3.1 and 1.3.5, if rejected at the level of Scrutiny/Re-Scrutiny without availing the appeal provision, are eligible for a refund of TER Charges after a deduction of ₹0.55 Lakh."
 
   utter_precautions_for_data_entry_and_submission:
-  - text: "Applicants should ensure that the data entered in their online application is correct. They can edit the data until the final submission, after which no further editing is allowed. All documents should be digitally signed, and applicants should exercise caution before pressing the "SUBMIT" tab."
+  - text: "Applicants should ensure that the data entered in their online application is correct. They can edit the data until the final submission, after which no further editing is allowed. All documents should be digitally signed, and applicants should exercise caution before pressing the \"SUBMIT\" tab."
 
   utter_significance_of_Digital_Signature_Certificate:
   - text: "Institutions are required to submit applications with a DSC to ensure the authenticity of the documents. Any document uploaded without a Digital Signature will not be considered valid."
