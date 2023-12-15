@@ -407,3 +407,11 @@ class ActionSignificanceOfAffidavit2AndConsequencesOfFalseInfo(Action):
     def run(self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
         dispatcher.utter_message("Affidavit 2, sworn before a First Class Judicial Magistrate or Public Notary, is a legal declaration. In case of false information, AICTE may invoke civil and/or criminal provisions as per the regulations in place.")
         return []
+    
+class ActionMandatorySubmissionToStateGovernmentAndAffiliatingUniversity(Action):
+    def name(self) -> Text:
+        return "utter_mandatory_submission_to_State_Government_and_affiliating_University"
+
+    def run(self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+        dispatcher.utter_message("Submitting a copy to the State Government/UT and affiliating University/Board ensures transparency and allows these entities to provide their views on the application.")
+        return []
