@@ -99,8 +99,8 @@ rules:
 
 - rule: Respond to queries about transitioning between Vocational classes and regular higher studies as per NEP 2020
   steps:
-    - intent: movement_between_vocational_and_formal_higher_education_streams
-    - action: utter_movement_between_vocational_and_formal_higher_education_streams
+  - intent: movement_between_vocational_and_formal_higher_education_streams
+  - action: utter_movement_between_vocational_and_formal_higher_education_streams
 
 - rule: Respond to queries about the process of requesting a No Objection Certificate (NOC) for schools
   steps:
