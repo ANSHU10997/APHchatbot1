@@ -139,8 +139,8 @@ rules:
 
 - rule: Respond to queries about eligibility criteria for promoters
   steps:
-    - intent: eligibility_criteria_for_promoters
-    - action: utter_eligibility_criteria_for_promoters
+  - intent: eligibility_criteria_for_promoters
+  - action: utter_eligibility_criteria_for_promoters
 
 - rule: Respond to queries about the ineligibility of certain programs
   steps:
