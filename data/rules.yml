@@ -179,8 +179,8 @@ rules:
 
 - rule: Respond to queries about how AICTE handles refund or excess payment
   steps:
-    - intent: AICTE_handling_refund_or_excess_payment
-    - action: utter_AICTE_handling_refund_or_excess_payment
+  - intent: AICTE_handling_refund_or_excess_payment
+  - action: utter_AICTE_handling_refund_or_excess_payment
 
 - rule: Respond to queries about USER ID allotment and associated cost
   steps:
