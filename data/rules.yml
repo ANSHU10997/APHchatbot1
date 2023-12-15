@@ -109,8 +109,8 @@ rules:
 
 - rule: Respond to queries about prerequisites for establishing a technical institution
   steps:
-    - intent: prerequisites_for_establishing_technical_institution
-    - action: utter_prerequisites_for_establishing_technical_institution
+  - intent: prerequisites_for_establishing_technical_institution
+  - action: utter_prerequisites_for_establishing_technical_institution
 
 - rule: Respond to queries about the significance of adhering to Central, State, and Local Laws
   steps:
