@@ -254,8 +254,8 @@ rules:
 
 - rule: existing_institutions_applying_for_closure_and_starting_new_institution
   steps:
-    - intent: existing_institutions_applying_for_closure_and_starting_new_institution
-    - action: respond_existing_institutions_applying_for_closure_and_starting_new_institution
+  - intent: existing_institutions_applying_for_closure_and_starting_new_institution
+  - action: respond_existing_institutions_applying_for_closure_and_starting_new_institution
 
 - rule: outcomes_of_approval_under_section_1.5.2a
   steps:
