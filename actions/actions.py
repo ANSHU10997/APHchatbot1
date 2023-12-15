@@ -319,3 +319,11 @@ class ActionExistingInstitutionsApprovalByAICTE(Action):
     def run(self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
         dispatcher.utter_message("Existing institutions can seek approval from AICTE for the first time if they offer courses in Applied Arts and Crafts/Vocational (Technical) without AICTE approval or if they are non-technical institutions already running MBA/MCA courses without AICTE approval.")
         return []
+
+class ActionAdditionalChargesForExtraCommittees(Action):
+    def name(self) -> Text:
+        return "utter_additional_charges_for_extra_committees"
+
+    def run(self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+        dispatcher.utter_message("For an additional Scrutiny Committee, the applicant has to remit ₹0.55 Lakh, and for an additional Expert Visit Committee (Online/Offline), the applicant has to remit ₹1.10 Lakh or ₹2.20 Lakh, respectively, as additional TER Charges.")
+        return []
