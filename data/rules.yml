@@ -129,8 +129,7 @@ rules:
 
 - rule: Respond to queries about the time frame for submission and consequences
   steps:
-    - intent: time_frame_for_submission_and_consequences
-    - action: utter_time_frame_for_submission_and_consequences
+  adaction: utter_time_frame_for_submission_and_consequences
 
 - rule: Respond to queries about types of programs for approval
   steps:
