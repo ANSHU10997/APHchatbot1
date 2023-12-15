@@ -159,7 +159,7 @@ responses:
   - text: "The schemes mentioned are the 'Sub-Mission on Polytechnics' and initiatives for educationally backward districts/left-wing extremism affected areas. The concerned State Government/UT must apply online on the AICTE Web Portal, and the application will go through scrutiny committees before approval."
 
   utter_consequences_of_not_shifting_location:
-  - text: "If an institution does not shift to the permanent location within 2 years, and if it meets the norms, the "Approved Intake" in the course(s) shall be reduced to 50%. If the institution has not shifted even after 4 years, the Council will take appropriate action."
+  - text: "If an institution does not shift to the permanent location within 2 years, and if it meets the norms, the \"Approved Intake\" in the course(s) shall be reduced to 50%. If the institution has not shifted even after 4 years, the Council will take appropriate action."
 
   utter_existing_institutions_approval_by_AICTE:
   - text: "Existing institutions can seek approval from AICTE for the first time if they offer courses in Applied Arts and Crafts/Vocational (Technical) without AICTE approval or if they are non-technical institutions already running MBA/MCA courses without AICTE approval."
