@@ -214,8 +214,8 @@ rules:
 
 - rule: Respond to queries about the significance of Affidavit 2 and consequences of false info
   steps:
-    - intent: significance_of_Affidavit_2_and_consequences_of_false_info
-    - action: utter_significance_of_Affidavit_2_and_consequences_of_false_info
+  - intent: significance_of_Affidavit_2_and_consequences_of_false_info
+  - action: utter_significance_of_Affidavit_2_and_consequences_of_false_info
 
 - rule: Respond to queries about mandatory submission to State Government and affiliating University
   steps:
