@@ -94,8 +94,8 @@ rules:
 
 - rule: Respond to queries about transitioning from regular school to Vocational classes and the role of SKP/Training Providers
   steps:
-    - intent: general_stream_to_vocational_stream_transition
-    - action: utter_general_stream_to_vocational_stream_transition
+  - intent: general_stream_to_vocational_stream_transition
+  - action: utter_general_stream_to_vocational_stream_transition
 
 - rule: Respond to queries about transitioning between Vocational classes and regular higher studies as per NEP 2020
   steps:
