@@ -503,3 +503,11 @@ class ActionRestrictionsOnUseOfNamesForNewTechnicalInstitution(Action):
     def run(self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
         dispatcher.utter_message("The abbreviated form of the name of the technical institution cannot become IIM/IIT/IISc/NIT/IISER/IIIT/IIEST/AICTE/UGC/MoE/GoI. The institution also cannot use the words Government/India/Indian/National/All India/All India Council/Commission in a way that implies it is a government institute, unless established by the Government of India.")
         return []
+
+class ActionDifferentiationOfExistingInstitutionsWithSameNameWithinState(Action):
+    def name(self) -> Text:
+        return "utter_differentiation_of_existing_institutions_with_same_name_within_state"
+
+    def run(self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+        dispatcher.utter_message("Existing institutions with the same name within a state should at least add the name of the Village/Town/City where they are located as an integral part of the institution's name.")
+        return []
