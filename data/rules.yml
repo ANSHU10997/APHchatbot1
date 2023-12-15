@@ -274,8 +274,8 @@ rules:
 
 - rule: restrictions_on_use_of_names_for_new_technical_institution
   steps:
-    - intent: restrictions_on_use_of_names_for_new_technical_institution
-    - action: respond_restrictions_on_use_of_names
+  - intent: restrictions_on_use_of_names_for_new_technical_institution
+  - action: respond_restrictions_on_use_of_names
 
 - rule: differentiation_of_existing_institutions_with_same_name_within_state
   steps:
