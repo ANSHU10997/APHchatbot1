@@ -184,12 +184,13 @@ rules:
 
 - rule: Respond to queries about USER ID allotment and associated cost
   steps:
-  astion: utter_USER_ID_allotment_and_associated_cost
+  - intent: USER_ID_allotment_and_associated_cost
+  - action: utter_USER_ID_allotment_and_associated_cost
 
 - rule: Respond to queries about the procedure for password recovery and charges
   steps:
-    - intent: procedure_for_password_recovery_and_charges
-    - action: utter_procedure_for_password_recovery_and_charges
+  - intent: procedure_for_password_recovery_and_charges
+  - action: utter_procedure_for_password_recovery_and_charges
 
 - rule: Respond to queries about TER charges calculation and annual increase
   steps:
