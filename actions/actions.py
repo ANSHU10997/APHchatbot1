@@ -495,3 +495,11 @@ class ActionRequirementsForGovernmentGovernmentAidedInstitutionsCentralStateUniv
     def run(self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
         dispatcher.utter_message("For Government/Government-Aided Institutions/Central/State Universities, the government must have a budget provision of a minimum of ₹100 lakh and the requisite land/built-up area for the establishment of a new institute.")
         return []
+
+class ActionRestrictionsOnUseOfNamesForNewTechnicalInstitution(Action):
+    def name(self) -> Text:
+        return "utter_restrictions_on_use_of_names_for_new_technical_institution"
+
+    def run(self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+        dispatcher.utter_message("The abbreviated form of the name of the technical institution cannot become IIM/IIT/IISc/NIT/IISER/IIIT/IIEST/AICTE/UGC/MoE/GoI. The institution also cannot use the words Government/India/Indian/National/All India/All India Council/Commission in a way that implies it is a government institute, unless established by the Government of India.")
+        return []
