@@ -264,8 +264,8 @@ rules:
 
 - rule: fund_position_requirements_in_terms_of_FDRs_and_bank_accounts
   steps:
-    - intent: fund_position_requirements_in_terms_of_FDRs_and_bank_accounts
-    - action: respond_fund_position_requirements
+  - intent: fund_position_requirements_in_terms_of_FDRs_and_bank_accounts
+  - action: respond_fund_position_requirements
 
 - rule: requirements_for_Government_Government-Aided_Institutions_Central_State_Universities
   steps:
