@@ -263,3 +263,11 @@ class ActionAICTEHandlingApplications(Action):
     def run(self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
         dispatcher.utter_message("AICTE notifies the application process through Public Notices and its website, setting cut-off dates for various categories. The application process is conducted online through the AICTE Web Portal using the National Single Window System (NSWS). Offline applications are not accepted.")
         return []
+
+class ActionTimeFrameForSubmissionAndConsequences(Action):
+    def name(self) -> Text:
+        return "utter_time_frame_for_submission_and_consequences"
+
+    def run(self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+        dispatcher.utter_message("AICTE specifies a time schedule through Public Notices and its website for the submission of applications. It is mandatory for applications to be submitted on the AICTE Web Portal through NSWS, with both the application and payment made by the last date as notified in the Public Notice/AICTE Website. Applications submitted after the deadline will not be accepted.")
+        return []
