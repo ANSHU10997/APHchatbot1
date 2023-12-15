@@ -144,8 +144,8 @@ rules:
 
 - rule: Respond to queries about the ineligibility of certain programs
   steps:
-    - intent: ineligibility_of_certain_programs
-    - action: utter_ineligibility_of_certain_programs
+  - intent: ineligibility_of_certain_programs
+  - action: utter_ineligibility_of_certain_programs
 
 - rule: Respond to queries about Ministry of Education schemes for establishment
   steps:
