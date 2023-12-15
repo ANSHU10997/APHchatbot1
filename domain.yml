@@ -156,7 +156,7 @@ responses:
   - text: "New institutions are not eligible for these programs as per section 1.3.3. The specific reasons for this exclusion are not provided in the given content."
 
   utter_Ministry_of_Education_schemes_for_establishment:
-  - text: "The schemes mentioned are the "Sub-Mission on Polytechnics" and initiatives for educationally backward districts/left-wing extremism affected areas. The concerned State Government/UT must apply online on the AICTE Web Portal, and the application will go through scrutiny committees before approval."
+  - text: "The schemes mentioned are the 'Sub-Mission on Polytechnics' and initiatives for educationally backward districts/left-wing extremism affected areas. The concerned State Government/UT must apply online on the AICTE Web Portal, and the application will go through scrutiny committees before approval."
 
   utter_consequences_of_not_shifting_location:
   - text: "If an institution does not shift to the permanent location within 2 years, and if it meets the norms, the "Approved Intake" in the course(s) shall be reduced to 50%. If the institution has not shifted even after 4 years, the Council will take appropriate action."
