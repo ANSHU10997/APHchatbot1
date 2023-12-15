@@ -174,8 +174,8 @@ rules:
 
 - rule: Respond to queries about the importance of online application through NSWS
   steps:
-    - intent: importance_of_online_application_through_NSWS
-    - action: utter_importance_of_online_application_through_NSWS
+  - intent: importance_of_online_application_through_NSWS
+  - action: utter_importance_of_online_application_through_NSWS
 
 - rule: Respond to queries about how AICTE handles refund or excess payment
   steps:
