@@ -22,265 +22,265 @@ rules:
   - intent: nsqf
   - action: utter_nsqf
 
-  - rule: if the user ask anything about "Inquire about Affiliation of Vocational Courses" or something matching with this please reply with action "utter_affiliation_vocational_courses"
-    steps:
-    - intent: affiliation_vocational_courses
-    - action: utter_affiliation_vocational_courses
+- rule: if the user ask anything about "Inquire about Affiliation of Vocational Courses" or something matching with this please reply with action "utter_affiliation_vocational_courses"
+  steps:
+  - intent: affiliation_vocational_courses
+  - action: utter_affiliation_vocational_courses
 
-  - rule: if the user ask anything about Diploma/Undergraduate Programs or d_vocb_voc courses or programs reply with action "utter_d_voc_b_voc_programmes"
-    steps:
-    - intent: d_voc_b_voc_programmes
-    - action: utter_d_voc_b_voc_programmes
+- rule: if the user ask anything about Diploma/Undergraduate Programs or d_vocb_voc courses or programs reply with action "utter_d_voc_b_voc_programmes"
+  steps:
+  - intent: d_voc_b_voc_programmes
+  - action: utter_d_voc_b_voc_programmes
 
-  - rule: if the user asks anything about Credit-based Modular Programs reply with action "utter_credit_based_modular_programs" or user asks anything related to credit-based modular programs
-    steps:
-    - intent: credit_based_modular_programs
-    - action: utter_credit_based_modular_programs
+- rule: if the user asks anything about Credit-based Modular Programs reply with action "utter_credit_based_modular_programs" or user asks anything related to credit-based modular programs
+  steps:
+  - intent: credit_based_modular_programs
+  - action: utter_credit_based_modular_programs
 
-  - rule: if the user asks anything about Curriculum Mix in Vocational Education i.e., balance between traditional learning and practical learning, respond with action "utter_curriculum_mix_vocational_education"
-    steps:
-    - intent: curriculum_mix_vocational_education
-    - action: utter_curriculum_mix_vocational_education
+- rule: if the user asks anything about Curriculum Mix in Vocational Education i.e., balance between traditional learning and practical learning, respond with action "utter_curriculum_mix_vocational_education"
+  steps:
+  - intent: curriculum_mix_vocational_education
+  - action: utter_curriculum_mix_vocational_education
 
-  - rule: if the user asks anything about "who hold the authority to approve the content of our educational curriculum" respond with action "utter_curriculum_approval_oversight"
-    steps:
-      - intent: curriculum_approval_oversight
-      - action: utter_curriculum_approval_oversight
+- rule: if the user asks anything about "who hold the authority to approve the content of our educational curriculum" respond with action "utter_curriculum_approval_oversight"
+  steps:
+    - intent: curriculum_approval_oversight
+    - action: utter_curriculum_approval_oversight
 
-  - rule: if the user asks anything about "Role of General Education Component" respond with action "utter_role_general_education_component"
-    steps:
-      - intent: role_general_education_component
-      - action: utter_role_general_education_component
+- rule: if the user asks anything about "Role of General Education Component" respond with action "utter_role_general_education_component"
+  steps:
+    - intent: role_general_education_component
+    - action: utter_role_general_education_component
 
-  - rule: if the user asks anything about "Emphasis on Credit-based Modular Programs for voactional education" respond with action "utter_emphasis_credit_based_modular_programs"
-    steps:
-      - intent: emphasis_credit_based_modular_programs
-      - action: utter_emphasis_credit_based_modular_programs
+- rule: if the user asks anything about "Emphasis on Credit-based Modular Programs for voactional education" respond with action "utter_emphasis_credit_based_modular_programs"
+  steps:
+    - intent: emphasis_credit_based_modular_programs
+    - action: utter_emphasis_credit_based_modular_programs
 
-  - rule: if the user asks anything about design the curriculum for acquiring skills, respond with action "utter_focus_skill_development_component_design"
-    steps:
-      - intent: focus_skill_development_component_design
-      - action: utter_focus_skill_development_component_design
+- rule: if the user asks anything about design the curriculum for acquiring skills, respond with action "utter_focus_skill_development_component_design"
+  steps:
+    - intent: focus_skill_development_component_design
+    - action: utter_focus_skill_development_component_design
 
-  - rule: if the user asks anything about absence of "National Occupational Standards (NOS)" respond with action "utter_national_occupational_standards"
-    steps:
-      - intent: national_occupational_standards
-      - action: utter_national_occupational_standards
+- rule: if the user asks anything about absence of "National Occupational Standards (NOS)" respond with action "utter_national_occupational_standards"
+  steps:
+    - intent: national_occupational_standards
+    - action: utter_national_occupational_standards
 
-  - rule: if the user asks anything about "What is the primary focus of the school plan in developing skills for the workplace, and why is it valued?" respond with action "utter_curriculum_emphasis_work_readiness_skills"
-    steps:
-      - intent: curriculum_emphasis_work_readiness_skills
-      - action: utter_curriculum_emphasis_work_readiness_skills
+- rule: if the user asks anything about "What is the primary focus of the school plan in developing skills for the workplace, and why is it valued?" respond with action "utter_curriculum_emphasis_work_readiness_skills"
+  steps:
+    - intent: curriculum_emphasis_work_readiness_skills
+    - action: utter_curriculum_emphasis_work_readiness_skills
 
-  - rule: Respond to queries about the determination of general education component in the school curriculum
-    steps:
-      - intent: determining_general_education_component
-      - action: utter_determining_general_education_component
+- rule: Respond to queries about the determination of general education component in the school curriculum
+  steps:
+    - intent: determining_general_education_component
+    - action: utter_determining_general_education_component
 
-  - rule: Respond to queries about completing skill modules and acquiring credits in Vocational Education
-    steps:
-      - intent: completing_skill_modules_acquiring_credits
-      - action: utter_completing_skill_modules_acquiring_credits
+- rule: Respond to queries about completing skill modules and acquiring credits in Vocational Education
+  steps:
+    - intent: completing_skill_modules_acquiring_credits
+    - action: utter_completing_skill_modules_acquiring_credits
 
-  - rule: Respond to queries about transferring earned credits and receiving awards in Vocational Education
-    steps:
-      - intent: credit_transfer_certification
-      - action: utter_credit_transfer_certification
+- rule: Respond to queries about transferring earned credits and receiving awards in Vocational Education
+  steps:
+    - intent: credit_transfer_certification
+    - action: utter_credit_transfer_certification
 
-  - rule: Respond to queries about finding information on 'Knowledge and Skill' certification levels
-    steps:
-      - intent: certification_levels_information
-      - action: utter_certification_levels_information
+- rule: Respond to queries about finding information on 'Knowledge and Skill' certification levels
+  steps:
+    - intent: certification_levels_information
+    - action: utter_certification_levels_information
 
-  - rule: Respond to queries about transitioning from regular school to Vocational classes and the role of SKP/Training Providers
-    steps:
-      - intent: general_stream_to_vocational_stream_transition
-      - action: utter_general_stream_to_vocational_stream_transition
+- rule: Respond to queries about transitioning from regular school to Vocational classes and the role of SKP/Training Providers
+  steps:
+    - intent: general_stream_to_vocational_stream_transition
+    - action: utter_general_stream_to_vocational_stream_transition
 
-  - rule: Respond to queries about transitioning between Vocational classes and regular higher studies as per NEP 2020
-    steps:
-      - intent: movement_between_vocational_and_formal_higher_education_streams
-      - action: utter_movement_between_vocational_and_formal_higher_education_streams
+- rule: Respond to queries about transitioning between Vocational classes and regular higher studies as per NEP 2020
+  steps:
+    - intent: movement_between_vocational_and_formal_higher_education_streams
+    - action: utter_movement_between_vocational_and_formal_higher_education_streams
 
-  - rule: Respond to queries about the process of requesting a No Objection Certificate (NOC) for schools
-    steps:
-      - intent: noc_process
-      - action: utter_noc_process
+- rule: Respond to queries about the process of requesting a No Objection Certificate (NOC) for schools
+  steps:
+    - intent: noc_process
+    - action: utter_noc_process
 
-  - rule: Respond to queries about prerequisites for establishing a technical institution
-    steps:
-      - intent: prerequisites_for_establishing_technical_institution
-      - action: utter_prerequisites_for_establishing_technical_institution
+- rule: Respond to queries about prerequisites for establishing a technical institution
+  steps:
+    - intent: prerequisites_for_establishing_technical_institution
+    - action: utter_prerequisites_for_establishing_technical_institution
 
-  - rule: Respond to queries about the significance of adhering to Central, State, and Local Laws
-    steps:
-        - intent: significance_of_adhering_to_laws
-        - action: utter_significance_of_adhering_to_laws
+- rule: Respond to queries about the significance of adhering to Central, State, and Local Laws
+  steps:
+      - intent: significance_of_adhering_to_laws
+      - action: utter_significance_of_adhering_to_laws
 
-  - rule: Respond to queries about the role of the State Government/UT in the establishment of technical institutions
-    steps:
-      - intent: role_of_state_government_in_establishment
-      - action: utter_role_of_state_government_in_establishment
+- rule: Respond to queries about the role of the State Government/UT in the establishment of technical institutions
+  steps:
+    - intent: role_of_state_government_in_establishment
+    - action: utter_role_of_state_government_in_establishment
 
-  - rule: Respond to queries about how AICTE handles applications for the establishment of technical institutions
-    steps:
-      - intent: AICTE_handling_applications
-      - action: utter_AICTE_handling_applications
+- rule: Respond to queries about how AICTE handles applications for the establishment of technical institutions
+  steps:
+    - intent: AICTE_handling_applications
+    - action: utter_AICTE_handling_applications
 
-  - rule: Respond to queries about the time frame for submission and consequences
-    steps:
-      - intent: time_frame_for_submission_and_consequences
-      - action: utter_time_frame_for_submission_and_consequences
+- rule: Respond to queries about the time frame for submission and consequences
+  steps:
+    - intent: time_frame_for_submission_and_consequences
+    - action: utter_time_frame_for_submission_and_consequences
 
-  - rule: Respond to queries about types of programs for approval
-    steps:
-      - intent: types_of_programs_for_approval
-      - action: utter_types_of_programs_for_approval
+- rule: Respond to queries about types of programs for approval
+  steps:
+    - intent: types_of_programs_for_approval
+    - action: utter_types_of_programs_for_approval
 
-  - rule: Respond to queries about eligibility criteria for promoters
-    steps:
-      - intent: eligibility_criteria_for_promoters
-      - action: utter_eligibility_criteria_for_promoters
+- rule: Respond to queries about eligibility criteria for promoters
+  steps:
+    - intent: eligibility_criteria_for_promoters
+    - action: utter_eligibility_criteria_for_promoters
 
-  - rule: Respond to queries about the ineligibility of certain programs
-    steps:
-      - intent: ineligibility_of_certain_programs
-      - action: utter_ineligibility_of_certain_programs
+- rule: Respond to queries about the ineligibility of certain programs
+  steps:
+    - intent: ineligibility_of_certain_programs
+    - action: utter_ineligibility_of_certain_programs
 
-  - rule: Respond to queries about Ministry of Education schemes for establishment
-    steps:
-      - intent: Ministry_of_Education_schemes_for_establishment
-      - action: utter_Ministry_of_Education_schemes_for_establishment
+- rule: Respond to queries about Ministry of Education schemes for establishment
+  steps:
+    - intent: Ministry_of_Education_schemes_for_establishment
+    - action: utter_Ministry_of_Education_schemes_for_establishment
 
-  - rule: Respond to queries about the consequences of not shifting location
-    steps:
-      - intent: consequences_of_not_shifting_location
-      - action: utter_consequences_of_not_shifting_location
+- rule: Respond to queries about the consequences of not shifting location
+  steps:
+    - intent: consequences_of_not_shifting_location
+    - action: utter_consequences_of_not_shifting_location
 
-  - rule: Respond to queries about existing institutions' approval by AICTE
-    steps:
-      - intent: existing_institutions_approval_by_AICTE
-      - action: utter_existing_institutions_approval_by_AICTE
+- rule: Respond to queries about existing institutions' approval by AICTE
+  steps:
+    - intent: existing_institutions_approval_by_AICTE
+    - action: utter_existing_institutions_approval_by_AICTE
 
-  - rule: Respond to queries about additional charges for extra committees
-    steps:
-      - intent: additional_charges_for_extra_committees
-      - action: utter_additional_charges_for_extra_committees
+- rule: Respond to queries about additional charges for extra committees
+  steps:
+    - intent: additional_charges_for_extra_committees
+    - action: utter_additional_charges_for_extra_committees
 
-  - rule: Respond to queries about the consequences of not paying TER within the deadline
-    steps:
-      - intent: consequences_of_not_paying_TER_within_deadline
-      - action: utter_consequences_of_not_paying_TER_within_deadline
+- rule: Respond to queries about the consequences of not paying TER within the deadline
+  steps:
+    - intent: consequences_of_not_paying_TER_within_deadline
+    - action: utter_consequences_of_not_paying_TER_within_deadline
 
-  - rule: Respond to queries about the importance of online application through NSWS
-    steps:
-      - intent: importance_of_online_application_through_NSWS
-      - action: utter_importance_of_online_application_through_NSWS
+- rule: Respond to queries about the importance of online application through NSWS
+  steps:
+    - intent: importance_of_online_application_through_NSWS
+    - action: utter_importance_of_online_application_through_NSWS
 
-  - rule: Respond to queries about how AICTE handles refund or excess payment
-    steps:
-      - intent: AICTE_handling_refund_or_excess_payment
-      - action: utter_AICTE_handling_refund_or_excess_payment
+- rule: Respond to queries about how AICTE handles refund or excess payment
+  steps:
+    - intent: AICTE_handling_refund_or_excess_payment
+    - action: utter_AICTE_handling_refund_or_excess_payment
 
-  - rule: Respond to queries about USER ID allotment and associated cost
-    steps:
-      - intent: USER_ID_allotment_and_associated_cost
-      - action: utter_USER_ID_allotment_and_associated_cost
+- rule: Respond to queries about USER ID allotment and associated cost
+  steps:
+    - intent: USER_ID_allotment_and_associated_cost
+    - action: utter_USER_ID_allotment_and_associated_cost
 
-  - rule: Respond to queries about the procedure for password recovery and charges
-    steps:
-      - intent: procedure_for_password_recovery_and_charges
-      - action: utter_procedure_for_password_recovery_and_charges
+- rule: Respond to queries about the procedure for password recovery and charges
+  steps:
+    - intent: procedure_for_password_recovery_and_charges
+    - action: utter_procedure_for_password_recovery_and_charges
 
-  - rule: Respond to queries about TER charges calculation and annual increase
-    steps:
-      - intent: TER_charges_calculation_and_annual_increase
-      - action: utter_TER_charges_calculation_and_annual_increase
+- rule: Respond to queries about TER charges calculation and annual increase
+  steps:
+    - intent: TER_charges_calculation_and_annual_increase
+    - action: utter_TER_charges_calculation_and_annual_increase
 
-  - rule: Respond to queries about eligibility for TER charge refund
-    steps:
-      - intent: eligibility_for_TER_charge_refund
-      - action: utter_eligibility_for_TER_charge_refund
+- rule: Respond to queries about eligibility for TER charge refund
+  steps:
+    - intent: eligibility_for_TER_charge_refund
+    - action: utter_eligibility_for_TER_charge_refund
 
-  - rule: Respond to queries about precautions for data entry and submission
-    steps:
-      - intent: precautions_for_data_entry_and_submission
-      - action: utter_precautions_for_data_entry_and_submission
+- rule: Respond to queries about precautions for data entry and submission
+  steps:
+    - intent: precautions_for_data_entry_and_submission
+    - action: utter_precautions_for_data_entry_and_submission
 
-  - rule: Respond to queries about the significance of Digital Signature Certificate
-    steps:
-      - intent: significance_of_Digital_Signature_Certificate
-      - action: utter_significance_of_Digital_Signature_Certificate
+- rule: Respond to queries about the significance of Digital Signature Certificate
+  steps:
+    - intent: significance_of_Digital_Signature_Certificate
+    - action: utter_significance_of_Digital_Signature_Certificate
 
-  - rule: Respond to queries about the significance of Affidavit 2 and consequences of false info
-    steps:
-      - intent: significance_of_Affidavit_2_and_consequences_of_false_info
-      - action: utter_significance_of_Affidavit_2_and_consequences_of_false_info
+- rule: Respond to queries about the significance of Affidavit 2 and consequences of false info
+  steps:
+    - intent: significance_of_Affidavit_2_and_consequences_of_false_info
+    - action: utter_significance_of_Affidavit_2_and_consequences_of_false_info
 
-  - rule: Respond to queries about mandatory submission to State Government and affiliating University
-    steps:
-      - intent: mandatory_submission_to_State_Government_and_affiliating_University
-      - action: utter_mandatory_submission_to_State_Government_and_affiliating_University
+- rule: Respond to queries about mandatory submission to State Government and affiliating University
+  steps:
+    - intent: mandatory_submission_to_State_Government_and_affiliating_University
+    - action: utter_mandatory_submission_to_State_Government_and_affiliating_University
 
-  - rule: Respond to queries about the timeline for views from State Government and affiliating University
-    steps:
-      - intent: timeline_for_views_from_State_Government_and_affiliating_University
-      - action: utter_timeline_for_views_from_State_Government_and_affiliating_University
+- rule: Respond to queries about the timeline for views from State Government and affiliating University
+  steps:
+    - intent: timeline_for_views_from_State_Government_and_affiliating_University
+    - action: utter_timeline_for_views_from_State_Government_and_affiliating_University
 
-  - rule: lifting_of_moratorium_for_new_institutions
-    steps:
-      - intent: lifting_of_moratorium_for_new_institutions
-      - action: respond_lifting_of_moratorium
+- rule: lifting_of_moratorium_for_new_institutions
+  steps:
+    - intent: lifting_of_moratorium_for_new_institutions
+    - action: respond_lifting_of_moratorium
 
-  - rule: requirements_and_eligibility_for_Promoter_Trust_Society_Company
-    steps:
-      - intent: requirements_and_eligibility_for_Promoter_Trust_Society_Company
-      - action: respond_requirements_and_eligibility_for_promoter
+- rule: requirements_and_eligibility_for_Promoter_Trust_Society_Company
+  steps:
+    - intent: requirements_and_eligibility_for_Promoter_Trust_Society_Company
+    - action: respond_requirements_and_eligibility_for_promoter
 
-  - rule: minimum_funds_required_for_proof_of_operational_expenses
-    steps:
-      - intent: minimum_funds_required_for_proof_of_operational_expenses
-      - action: respond_minimum_funds_required_for_operational_expenses
+- rule: minimum_funds_required_for_proof_of_operational_expenses
+  steps:
+    - intent: minimum_funds_required_for_proof_of_operational_expenses
+    - action: respond_minimum_funds_required_for_operational_expenses
 
-  - rule: building_plan_requirements_and_approval
-    steps:
-      - intent: building_plan_requirements_and_approval
-      - action: respond_building_plan_requirements_and_approval
+- rule: building_plan_requirements_and_approval
+  steps:
+    - intent: building_plan_requirements_and_approval
+    - action: respond_building_plan_requirements_and_approval
 
-  - rule: qualifications_required_for_head_of_technical_institution
-    steps:
-      - intent: qualifications_required_for_head_of_technical_institution
-      - action: respond_qualifications_required_for_head
+- rule: qualifications_required_for_head_of_technical_institution
+  steps:
+    - intent: qualifications_required_for_head_of_technical_institution
+    - action: respond_qualifications_required_for_head
 
-  - rule: existing_institutions_applying_for_closure_and_starting_new_institution
-    steps:
-      - intent: existing_institutions_applying_for_closure_and_starting_new_institution
-      - action: respond_existing_institutions_applying_for_closure_and_starting_new_institution
+- rule: existing_institutions_applying_for_closure_and_starting_new_institution
+  steps:
+    - intent: existing_institutions_applying_for_closure_and_starting_new_institution
+    - action: respond_existing_institutions_applying_for_closure_and_starting_new_institution
 
-  - rule: outcomes_of_approval_under_section_1.5.2a
-    steps:
-      - intent: outcomes_of_approval_under_section_1.5.2a
-      - action: respond_outcomes_of_approval
+- rule: outcomes_of_approval_under_section_1.5.2a
+  steps:
+    - intent: outcomes_of_approval_under_section_1.5.2a
+    - action: respond_outcomes_of_approval
 
-  - rule: fund_position_requirements_in_terms_of_FDRs_and_bank_accounts
-    steps:
-      - intent: fund_position_requirements_in_terms_of_FDRs_and_bank_accounts
-      - action: respond_fund_position_requirements
+- rule: fund_position_requirements_in_terms_of_FDRs_and_bank_accounts
+  steps:
+    - intent: fund_position_requirements_in_terms_of_FDRs_and_bank_accounts
+    - action: respond_fund_position_requirements
 
-  - rule: requirements_for_Government_Government-Aided_Institutions_Central_State_Universities
-    steps:
-      - intent: requirements_for_Government_Government-Aided_Institutions_Central_State_Universities
-      - action: respond_requirements_for_government_aided_institutions
+- rule: requirements_for_Government_Government-Aided_Institutions_Central_State_Universities
+  steps:
+    - intent: requirements_for_Government_Government-Aided_Institutions_Central_State_Universities
+    - action: respond_requirements_for_government_aided_institutions
 
-  - rule: restrictions_on_use_of_names_for_new_technical_institution
-    steps:
-      - intent: restrictions_on_use_of_names_for_new_technical_institution
-      - action: respond_restrictions_on_use_of_names
+- rule: restrictions_on_use_of_names_for_new_technical_institution
+  steps:
+    - intent: restrictions_on_use_of_names_for_new_technical_institution
+    - action: respond_restrictions_on_use_of_names
 
-  - rule: differentiation_of_existing_institutions_with_same_name_within_state
-    steps:
-      - intent: differentiation_of_existing_institutions_with_same_name_within_state
-      - action: respond_differentiation_of_existing_institutions
+- rule: differentiation_of_existing_institutions_with_same_name_within_state
+  steps:
+    - intent: differentiation_of_existing_institutions_with_same_name_within_state
+    - action: respond_differentiation_of_existing_institutions
 
 
 
