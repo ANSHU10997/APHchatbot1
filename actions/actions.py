@@ -360,3 +360,10 @@ class ActionUserIDAllotmentAndAssociatedCost(Action):
         dispatcher.utter_message("The USER ID with a password is allotted upon payment of ₹5500 through the payment gateway on AICTE Web-Portal. This unique identifier allows applicants to track the status of their application.")
         return []
 
+class ActionProcedureForPasswordRecoveryAndCharges(Action):
+    def name(self) -> Text:
+        return "utter_procedure_for_password_recovery_and_charges"
+
+    def run(self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+        dispatcher.utter_message("If an existing institution forgets its password, it can apply online for a new one by remitting ₹5500 as Technical Education Regulatory (TER) Charges through the payment gateway on AICTE Web-Portal.")
+        return []
