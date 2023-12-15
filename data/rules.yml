@@ -230,57 +230,57 @@ rules:
 - rule: lifting_of_moratorium_for_new_institutions
   steps:
   - intent: lifting_of_moratorium_for_new_institutions
-  - action: respond_lifting_of_moratorium
+  - action: utter_lifting_of_moratorium_for_new_institutions
 
 - rule: requirements_and_eligibility_for_Promoter_Trust_Society_Company
   steps:
   - intent: requirements_and_eligibility_for_Promoter_Trust_Society_Company
-  - action: respond_requirements_and_eligibility_for_promoter
+  - action: utter_requirements_and_eligibility_for_Promoter_Trust_Society_Company
 
 - rule: minimum_funds_required_for_proof_of_operational_expenses
   steps:
   - intent: minimum_funds_required_for_proof_of_operational_expenses
-  - action: respond_minimum_funds_required_for_operational_expenses
+  - action: utter_minimum_funds_required_for_proof_of_operational_expenses
 
 - rule: building_plan_requirements_and_approval
   steps:
   - intent: building_plan_requirements_and_approval
-  - action: respond_building_plan_requirements_and_approval
+  - action: utter_building_plan_requirements_and_approval
 
 - rule: qualifications_required_for_head_of_technical_institution
   steps:
   - intent: qualifications_required_for_head_of_technical_institution
-  - action: respond_qualifications_required_for_head
+  - action: utter_qualifications_required_for_head_of_technical_institution
 
 - rule: existing_institutions_applying_for_closure_and_starting_new_institution
   steps:
   - intent: existing_institutions_applying_for_closure_and_starting_new_institution
-  - action: respond_existing_institutions_applying_for_closure_and_starting_new_institution
+  - action: utter_existing_institutions_applying_for_closure_and_starting_new_institution
 
 - rule: outcomes_of_approval_under_section_1.5.2a
   steps:
   - intent: outcomes_of_approval_under_section_1.5.2a
-  - action: respond_outcomes_of_approval
+  - action: utter_outcomes_of_approval_under_section_1.5.2a
 
 - rule: fund_position_requirements_in_terms_of_FDRs_and_bank_accounts
   steps:
   - intent: fund_position_requirements_in_terms_of_FDRs_and_bank_accounts
-  - action: respond_fund_position_requirements
+  - action: utter_fund_position_requirements_in_terms_of_FDRs_and_bank_accounts
 
 - rule: requirements_for_Government_Government-Aided_Institutions_Central_State_Universities
   steps:
   - intent: requirements_for_Government_Government-Aided_Institutions_Central_State_Universities
-  - action: respond_requirements_for_government_aided_institutions
+  - action: utter_requirements_for_Government_Government-Aided_Institutions_Central_State_Universities
 
 - rule: restrictions_on_use_of_names_for_new_technical_institution
   steps:
   - intent: restrictions_on_use_of_names_for_new_technical_institution
-  - action: respond_restrictions_on_use_of_names
+  - action: utter_restrictions_on_use_of_names_for_new_technical_institution
 
 - rule: differentiation_of_existing_institutions_with_same_name_within_state
   steps:
   - intent: differentiation_of_existing_institutions_with_same_name_within_state
-  - action: respond_differentiation_of_existing_institutions
+  - action: utter_differentiation_of_existing_institutions_with_same_name_within_state
 
 
 

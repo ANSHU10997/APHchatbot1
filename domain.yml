@@ -302,7 +302,6 @@ actions:
   - utter_requirements_for_Government_Government-Aided_Institutions_Central_State_Universities
   - utter_restrictions_on_use_of_names_for_new_technical_institution
   - utter_differentiation_of_existing_institutions_with_same_name_within_state
-  - respond_lifting_of_moratorium
 
 
 
