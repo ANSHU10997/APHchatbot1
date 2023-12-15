@@ -231,3 +231,11 @@ class ActionNOCProcess(Action):
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
         dispatcher.utter_message(text="The institution must apply online on the AICTE Web-Portal as per the calendar of AICTE for seeking NOC (No Objection Certificate).")
         return []
+
+class ActionPrerequisitesForEstablishingTechnicalInstitution(Action):
+    def name(self) -> Text:
+        return "utter_prerequisites_for_establishing_technical_institution"
+
+    def run(self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+        dispatcher.utter_message("The new technical institution should meet the infrastructure requirements outlined in the Approval Process Handbook. Additionally, it should have prior approval from the Council before offering any technical courses.")
+        return []
