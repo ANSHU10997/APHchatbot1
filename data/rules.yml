@@ -224,8 +224,8 @@ rules:
 
 - rule: Respond to queries about the timeline for views from State Government and affiliating University
   steps:
-    - intent: timeline_for_views_from_State_Government_and_affiliating_University
-    - action: utter_timeline_for_views_from_State_Government_and_affiliating_University
+  - intent: timeline_for_views_from_State_Government_and_affiliating_University
+  - action: utter_timeline_for_views_from_State_Government_and_affiliating_University
 
 - rule: lifting_of_moratorium_for_new_institutions
   steps:
