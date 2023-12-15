@@ -435,15 +435,15 @@ nlu:
 
   - intent: additional_charges_for_extra_committees
     examples: |
-    - What are the potential extra fees associated with unique circumstances like an additional Scrutiny Committee during the application process?
-    - Are there any supplementary charges for exceptional situations, like requesting an additional Scrutiny Committee or an Expert Visit Committee?
-    - How much might an applicant be charged for extraordinary circumstances, such as the formation of an additional Scrutiny Committee or Expert Visit Committee?
-    - Are there additional costs for situations like having to involve an extra Scrutiny Committee or organizing an Expert Visit Committee?
-    - What kind of fees can an applicant expect in cases of extraordinary circumstances, such as the need for an additional Scrutiny Committee or an Expert Visit Committee?
-    - Could you outline the potential financial implications for applicants in cases of extraordinary circumstances, such as an extra Scrutiny Committee or Expert Visit Committee?
-    - In situations requiring an extra Scrutiny Committee or an Expert Visit Committee, are there specific charges or fees that an applicant needs to be aware of?
-    - How does the fee structure change for applicants facing exceptional circumstances, like requesting an additional Scrutiny Committee or an Expert Visit Committee?
-    - Are there specific charges associated with unique situations, like those requiring an additional Scrutiny Committee or Expert Visit Committee?
+      - What are the potential extra fees associated with unique circumstances like an additional Scrutiny Committee during the application process?
+      - Are there any supplementary charges for exceptional situations, like requesting an additional Scrutiny Committee or an Expert Visit Committee?
+      - How much might an applicant be charged for extraordinary circumstances, such as the formation of an additional Scrutiny Committee or Expert Visit Committee?
+      - Are there additional costs for situations like having to involve an extra Scrutiny Committee or organizing an Expert Visit Committee?
+      - What kind of fees can an applicant expect in cases of extraordinary circumstances, such as the need for an additional Scrutiny Committee or an Expert Visit Committee?
+      - Could you outline the potential financial implications for applicants in cases of extraordinary circumstances, such as an extra Scrutiny Committee or Expert Visit Committee?
+      - In situations requiring an extra Scrutiny Committee or an Expert Visit Committee, are there specific charges or fees that an applicant needs to be aware of?
+      - How does the fee structure change for applicants facing exceptional circumstances, like requesting an additional Scrutiny Committee or an Expert Visit Committee?
+      - Are there specific charges associated with unique situations, like those requiring an additional Scrutiny Committee or Expert Visit Committee?
 
   - intent: consequences_of_not_paying_TER_within_deadline
     examples: |
