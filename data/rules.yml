@@ -79,8 +79,8 @@ rules:
 
 - rule: Respond to queries about completing skill modules and acquiring credits in Vocational Education
   steps:
-    - intent: completing_skill_modules_acquiring_credits
-    - action: utter_completing_skill_modules_acquiring_credits
+  - intent: completing_skill_modules_acquiring_credits
+  - action: utter_completing_skill_modules_acquiring_credits
 
 - rule: Respond to queries about transferring earned credits and receiving awards in Vocational Education
   steps:
