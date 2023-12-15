@@ -114,8 +114,8 @@ rules:
 
 - rule: Respond to queries about the significance of adhering to Central, State, and Local Laws
   steps:
-      - intent: significance_of_adhering_to_laws
-      - action: utter_significance_of_adhering_to_laws
+  - intent: significance_of_adhering_to_laws
+  - action: utter_significance_of_adhering_to_laws
 
 - rule: Respond to queries about the role of the State Government/UT in the establishment of technical institutions
   steps:
