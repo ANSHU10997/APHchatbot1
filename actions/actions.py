@@ -255,3 +255,11 @@ class ActionRoleOfStateGovernmentInEstablishment(Action):
     def run(self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
         dispatcher.utter_message("The State Government/UT is expected to provide financial assistance for the establishment of technical institutions offering engineering and technology programs at DIPLOMA/UG/PG levels. The government should have a budget provision of at least ₹100 lakh and provide the necessary land.")
         return []
+
+class ActionAICTEHandlingApplications(Action):
+    def name(self) -> Text:
+        return "utter_AICTE_handling_applications"
+
+    def run(self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+        dispatcher.utter_message("AICTE notifies the application process through Public Notices and its website, setting cut-off dates for various categories. The application process is conducted online through the AICTE Web Portal using the National Single Window System (NSWS). Offline applications are not accepted.")
+        return []
