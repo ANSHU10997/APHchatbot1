@@ -119,8 +119,8 @@ rules:
 
 - rule: Respond to queries about the role of the State Government/UT in the establishment of technical institutions
   steps:
-    - intent: role_of_state_government_in_establishment
-    - action: utter_role_of_state_government_in_establishment
+  - intent: role_of_state_government_in_establishment
+  - action: utter_role_of_state_government_in_establishment
 
 - rule: Respond to queries about how AICTE handles applications for the establishment of technical institutions
   steps:
