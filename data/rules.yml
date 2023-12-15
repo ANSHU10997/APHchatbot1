@@ -259,8 +259,8 @@ rules:
 
 - rule: outcomes_of_approval_under_section_1.5.2a
   steps:
-    - intent: outcomes_of_approval_under_section_1.5.2a
-    - action: respond_outcomes_of_approval
+  - intent: outcomes_of_approval_under_section_1.5.2a
+  - action: respond_outcomes_of_approval
 
 - rule: fund_position_requirements_in_terms_of_FDRs_and_bank_accounts
   steps:
