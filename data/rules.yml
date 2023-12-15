@@ -74,8 +74,8 @@ rules:
 
 - rule: Respond to queries about the determination of general education component in the school curriculum
   steps:
-    - intent: determining_general_education_component
-    - action: utter_determining_general_education_component
+  - intent: determining_general_education_component
+  - action: utter_determining_general_education_component
 
 - rule: Respond to queries about completing skill modules and acquiring credits in Vocational Education
   steps:
