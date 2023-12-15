@@ -279,8 +279,8 @@ rules:
 
 - rule: differentiation_of_existing_institutions_with_same_name_within_state
   steps:
-    - intent: differentiation_of_existing_institutions_with_same_name_within_state
-    - action: respond_differentiation_of_existing_institutions
+  - intent: differentiation_of_existing_institutions_with_same_name_within_state
+  - action: respond_differentiation_of_existing_institutions
 
 
 
