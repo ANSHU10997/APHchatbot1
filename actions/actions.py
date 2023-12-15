@@ -303,3 +303,11 @@ class ActionMinistryOfEducationSchemesForEstablishment(Action):
     def run(self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
         dispatcher.utter_message("The schemes mentioned are the 'Sub-Mission on Polytechnics' and initiatives for educationally backward districts/left-wing extremism affected areas. The concerned State Government/UT must apply online on the AICTE Web Portal, and the application will go through scrutiny committees before approval.")
         return []
+
+class ActionConsequencesOfNotShiftingLocation(Action):
+    def name(self) -> Text:
+        return "utter_consequences_of_not_shifting_location"
+
+    def run(self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+        dispatcher.utter_message("If an institution does not shift to the permanent location within 2 years, and if it meets the norms, the 'Approved Intake' in the course(s) shall be reduced to 50%. If the institution has not shifted even after 4 years, the Council will take appropriate action.")
+        return []
