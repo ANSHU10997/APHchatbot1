@@ -463,3 +463,11 @@ class ActionQualificationsRequiredForHeadOfTechnicalInstitution(Action):
     def run(self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
         dispatcher.utter_message("The head of the technical institution should be named as the 'Principal/Director' and must have qualifications as per AICTE norms defined for a Principal in a program of the technical institution.")
         return []
+    
+class ActionExistingInstitutionsApplyingForClosureAndStartingNewInstitution(Action):
+    def name(self) -> Text:
+        return "utter_existing_institutions_applying_for_closure_and_starting_new_institution"
+
+    def run(self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+        dispatcher.utter_message("Yes, existing institutions applying for closure can also apply for starting a new technical institution in the same premises in the same academic year, provided they apply for progressive/complete closure of the existing program and a different program for the new institution.")
+        return []
