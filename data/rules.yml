@@ -234,8 +234,8 @@ rules:
 
 - rule: requirements_and_eligibility_for_Promoter_Trust_Society_Company
   steps:
-    - intent: requirements_and_eligibility_for_Promoter_Trust_Society_Company
-    - action: respond_requirements_and_eligibility_for_promoter
+  - intent: requirements_and_eligibility_for_Promoter_Trust_Society_Company
+  - action: respond_requirements_and_eligibility_for_promoter
 
 - rule: minimum_funds_required_for_proof_of_operational_expenses
   steps:
