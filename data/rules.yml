@@ -169,8 +169,8 @@ rules:
 
 - rule: Respond to queries about the consequences of not paying TER within the deadline
   steps:
-    - intent: consequences_of_not_paying_TER_within_deadline
-    - action: utter_consequences_of_not_paying_TER_within_deadline
+  - intent: consequences_of_not_paying_TER_within_deadline
+  - action: utter_consequences_of_not_paying_TER_within_deadline
 
 - rule: Respond to queries about the importance of online application through NSWS
   steps:
