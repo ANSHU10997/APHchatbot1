@@ -124,8 +124,8 @@ rules:
 
 - rule: Respond to queries about how AICTE handles applications for the establishment of technical institutions
   steps:
-    - intent: AICTE_handling_applications
-    - action: utter_AICTE_handling_applications
+  - intent: AICTE_handling_applications
+  - action: utter_AICTE_handling_applications
 
 - rule: Respond to queries about the time frame for submission and consequences
   steps:
