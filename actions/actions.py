@@ -287,3 +287,11 @@ class ActionEligibilityCriteriaForPromoters(Action):
     def run(self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
         dispatcher.utter_message("Promoters can be a Society registered under the Societies Registration Act, 1860, a Trust registered under the Indian Trust Act, 1882, a Company established under Section 8 of the Companies Act, 2013, or the Central/State Government/UT Administration. Foreign equity in a company applying for the establishment of a technical institution is generally not permitted.")
         return []
+
+class ActionIneligibilityOfCertainPrograms(Action):
+    def name(self) -> Text:
+        return "utter_ineligibility_of_certain_programs"
+
+    def run(self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+        dispatcher.utter_message("New institutions are not eligible for these programs as per section 1.3.3. The specific reasons for this exclusion are not provided in the given content.")
+        return []
