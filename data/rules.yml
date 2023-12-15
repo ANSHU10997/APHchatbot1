@@ -164,8 +164,8 @@ rules:
 
 - rule: Respond to queries about additional charges for extra committees
   steps:
-    - intent: additional_charges_for_extra_committees
-    - action: utter_additional_charges_for_extra_committees
+  - intent: additional_charges_for_extra_committees
+  - action: utter_additional_charges_for_extra_committees
 
 - rule: Respond to queries about the consequences of not paying TER within the deadline
   steps:
