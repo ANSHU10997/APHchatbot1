@@ -269,8 +269,8 @@ rules:
 
 - rule: requirements_for_Government_Government-Aided_Institutions_Central_State_Universities
   steps:
-    - intent: requirements_for_Government_Government-Aided_Institutions_Central_State_Universities
-    - action: respond_requirements_for_government_aided_institutions
+  - intent: requirements_for_Government_Government-Aided_Institutions_Central_State_Universities
+  - action: respond_requirements_for_government_aided_institutions
 
 - rule: restrictions_on_use_of_names_for_new_technical_institution
   steps:
