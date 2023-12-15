@@ -351,3 +351,12 @@ class ActionAICTEHandlingRefundOrExcessPayment(Action):
     def run(self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
         dispatcher.utter_message("In case of eligible refund or excess payment, the amount shall be refunded to the applicant after processing.")
         return []
+    
+class ActionUserIDAllotmentAndAssociatedCost(Action):
+    def name(self) -> Text:
+        return "utter_USER_ID_allotment_and_associated_cost"
+
+    def run(self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+        dispatcher.utter_message("The USER ID with a password is allotted upon payment of ₹5500 through the payment gateway on AICTE Web-Portal. This unique identifier allows applicants to track the status of their application.")
+        return []
+
