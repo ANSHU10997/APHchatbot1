@@ -248,3 +248,10 @@ class ActionSignificanceOfAdheringToLaws(Action):
         dispatcher.utter_message("The institution must adhere to existing Central, State, and Local Laws, along with norms from other Regulatory Bodies if applicable, in order to ensure compliance and legality in its establishment and operation.")
         return []
 
+class ActionRoleOfStateGovernmentInEstablishment(Action):
+    def name(self) -> Text:
+        return "utter_role_of_state_government_in_establishment"
+
+    def run(self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+        dispatcher.utter_message("The State Government/UT is expected to provide financial assistance for the establishment of technical institutions offering engineering and technology programs at DIPLOMA/UG/PG levels. The government should have a budget provision of at least ₹100 lakh and provide the necessary land.")
+        return []
