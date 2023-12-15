@@ -367,3 +367,11 @@ class ActionProcedureForPasswordRecoveryAndCharges(Action):
     def run(self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
         dispatcher.utter_message("If an existing institution forgets its password, it can apply online for a new one by remitting ₹5500 as Technical Education Regulatory (TER) Charges through the payment gateway on AICTE Web-Portal.")
         return []
+
+class ActionTERChargesCalculationAndAnnualIncrease(Action):
+    def name(self) -> Text:
+        return "utter_TER_charges_calculation_and_annual_increase"
+
+    def run(self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+        dispatcher.utter_message("TER Charges vary based on the type of institution. For Minority Institution/Institution in specific regions, it is ₹6.60 Lakh, for Government/Government Aided Institutions/PPP mode, it is Nil, and for all other institutions, it is ₹8.80 Lakh. The annual increase is 10%.")
+        return []
