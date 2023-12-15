@@ -59,8 +59,8 @@ rules:
 
 - rule: if the user asks anything about design the curriculum for acquiring skills, respond with action "utter_focus_skill_development_component_design"
   steps:
-    - intent: focus_skill_development_component_design
-    - action: utter_focus_skill_development_component_design
+  - intent: focus_skill_development_component_design
+  - action: utter_focus_skill_development_component_design
 
 - rule: if the user asks anything about absence of "National Occupational Standards (NOS)" respond with action "utter_national_occupational_standards"
   steps:
