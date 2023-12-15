@@ -194,8 +194,8 @@ rules:
 
 - rule: Respond to queries about TER charges calculation and annual increase
   steps:
-    - intent: TER_charges_calculation_and_annual_increase
-    - action: utter_TER_charges_calculation_and_annual_increase
+  - intent: TER_charges_calculation_and_annual_increase
+  - action: utter_TER_charges_calculation_and_annual_increase
 
 - rule: Respond to queries about eligibility for TER charge refund
   steps:
