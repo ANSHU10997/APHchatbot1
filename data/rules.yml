@@ -244,8 +244,8 @@ rules:
 
 - rule: building_plan_requirements_and_approval
   steps:
-    - intent: building_plan_requirements_and_approval
-    - action: respond_building_plan_requirements_and_approval
+  - intent: building_plan_requirements_and_approval
+  - action: respond_building_plan_requirements_and_approval
 
 - rule: qualifications_required_for_head_of_technical_institution
   steps:
