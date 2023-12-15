@@ -431,3 +431,11 @@ class ActionLiftingOfMoratoriumForNewInstitutions(Action):
     def run(self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
         dispatcher.utter_message("The lifting of the moratorium means that applications for establishing new institutions in Engineering and Technology will be considered, with a preference for those offering courses in multi-disciplinary areas in line with the National Education Policy (NEP) 2020 in STEM areas.")
         return []
+    
+class ActionRequirementsAndEligibilityForPromoterTrustSocietyCompany(Action):
+    def name(self) -> Text:
+        return "utter_requirements_and_eligibility_for_Promoter_Trust_Society_Company"
+
+    def run(self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+        dispatcher.utter_message("The Promoter Trust/Society/Company must have the land/built-up area required for the institution, with lawful possession and a clear title in its name on or before the date of submission of the application.")
+        return []
