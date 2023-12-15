@@ -18,9 +18,9 @@ rules:
   - action: utter_regulation_fees_vocational_courses
 
 - rule: if the user ask anything about NSQF reply with action "utter_nsqf"
-    steps:
-    - intent: nsqf
-    - action: utter_nsqf
+  steps:
+  - intent: nsqf
+  - action: utter_nsqf
 
   - rule: if the user ask anything about "Inquire about Affiliation of Vocational Courses" or something matching with this please reply with action "utter_affiliation_vocational_courses"
     steps:
