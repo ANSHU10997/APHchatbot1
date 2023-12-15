@@ -64,8 +64,8 @@ rules:
 
 - rule: if the user asks anything about absence of "National Occupational Standards (NOS)" respond with action "utter_national_occupational_standards"
   steps:
-    - intent: national_occupational_standards
-    - action: utter_national_occupational_standards
+  - intent: national_occupational_standards
+  - action: utter_national_occupational_standards
 
 - rule: if the user asks anything about "What is the primary focus of the school plan in developing skills for the workplace, and why is it valued?" respond with action "utter_curriculum_emphasis_work_readiness_skills"
   steps:
