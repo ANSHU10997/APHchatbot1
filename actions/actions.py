@@ -343,3 +343,11 @@ class ActionImportanceOfOnlineApplicationThroughNSWS(Action):
     def run(self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
         dispatcher.utter_message("Institutions seeking approval for the first time must submit an online application through NSWS on the AICTE web portal to be considered for processing.")
         return []
+
+class ActionAICTEHandlingRefundOrExcessPayment(Action):
+    def name(self) -> Text:
+        return "utter_AICTE_handling_refund_or_excess_payment"
+
+    def run(self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+        dispatcher.utter_message("In case of eligible refund or excess payment, the amount shall be refunded to the applicant after processing.")
+        return []
