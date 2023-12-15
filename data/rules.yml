@@ -239,8 +239,8 @@ rules:
 
 - rule: minimum_funds_required_for_proof_of_operational_expenses
   steps:
-    - intent: minimum_funds_required_for_proof_of_operational_expenses
-    - action: respond_minimum_funds_required_for_operational_expenses
+  - intent: minimum_funds_required_for_proof_of_operational_expenses
+  - action: respond_minimum_funds_required_for_operational_expenses
 
 - rule: building_plan_requirements_and_approval
   steps:
