@@ -471,3 +471,11 @@ class ActionExistingInstitutionsApplyingForClosureAndStartingNewInstitution(Acti
     def run(self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
         dispatcher.utter_message("Yes, existing institutions applying for closure can also apply for starting a new technical institution in the same premises in the same academic year, provided they apply for progressive/complete closure of the existing program and a different program for the new institution.")
         return []
+
+class ActionOutcomesOfApprovalUnderSection152a(Action):
+    def name(self) -> Text:
+        return "utter_outcomes_of_approval_under_section_1.5.2a"
+
+    def run(self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+        dispatcher.utter_message("If the application is approved, the existing institution will be considered closed (progressive/complete closure, as applicable), and any liabilities arising out of this will solely be the responsibility of the Trust/Society/Company/Technical Institution.")
+        return []
