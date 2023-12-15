@@ -439,3 +439,11 @@ class ActionRequirementsAndEligibilityForPromoterTrustSocietyCompany(Action):
     def run(self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
         dispatcher.utter_message("The Promoter Trust/Society/Company must have the land/built-up area required for the institution, with lawful possession and a clear title in its name on or before the date of submission of the application.")
         return []
+
+class ActionMinimumFundsRequiredForProofOfOperationalExpenses(Action):
+    def name(self) -> Text:
+        return "utter_minimum_funds_required_for_proof_of_operational_expenses"
+
+    def run(self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+        dispatcher.utter_message("The minimum funds required for different programs are as follows:\nEngineering and Technology: ₹100 lakh\nPlanning: ₹50 lakh\nApplied Arts and Crafts: ₹50 lakh\nDesign: ₹50 lakh\nHotel Management and Catering Technology: ₹50 lakh\nComputer Application (MCA): ₹50 lakh\nManagement: ₹50 lakh")
+        return []
