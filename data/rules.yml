@@ -69,8 +69,8 @@ rules:
 
 - rule: if the user asks anything about "What is the primary focus of the school plan in developing skills for the workplace, and why is it valued?" respond with action "utter_curriculum_emphasis_work_readiness_skills"
   steps:
-    - intent: curriculum_emphasis_work_readiness_skills
-    - action: utter_curriculum_emphasis_work_readiness_skills
+  - intent: curriculum_emphasis_work_readiness_skills
+  - action: utter_curriculum_emphasis_work_readiness_skills
 
 - rule: Respond to queries about the determination of general education component in the school curriculum
   steps:
