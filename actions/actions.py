@@ -375,3 +375,11 @@ class ActionTERChargesCalculationAndAnnualIncrease(Action):
     def run(self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
         dispatcher.utter_message("TER Charges vary based on the type of institution. For Minority Institution/Institution in specific regions, it is ₹6.60 Lakh, for Government/Government Aided Institutions/PPP mode, it is Nil, and for all other institutions, it is ₹8.80 Lakh. The annual increase is 10%.")
         return []
+    
+class ActionEligibilityForTERChargeRefund(Action):
+    def name(self) -> Text:
+        return "utter_eligibility_for_TER_charge_refund"
+
+    def run(self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+        dispatcher.utter_message("Applications submitted under Clause 1.3.1 and 1.3.5, if rejected at the level of Scrutiny/Re-Scrutiny without availing the appeal provision, are eligible for a refund of TER Charges after a deduction of ₹0.55 Lakh.")
+        return []
