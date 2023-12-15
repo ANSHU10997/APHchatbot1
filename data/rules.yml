@@ -149,8 +149,8 @@ rules:
 
 - rule: Respond to queries about Ministry of Education schemes for establishment
   steps:
-    - intent: Ministry_of_Education_schemes_for_establishment
-    - action: utter_Ministry_of_Education_schemes_for_establishment
+  - intent: Ministry_of_Education_schemes_for_establishment
+  - action: utter_Ministry_of_Education_schemes_for_establishment
 
 - rule: Respond to queries about the consequences of not shifting location
   steps:
