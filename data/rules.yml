@@ -219,8 +219,8 @@ rules:
 
 - rule: Respond to queries about mandatory submission to State Government and affiliating University
   steps:
-    - intent: mandatory_submission_to_State_Government_and_affiliating_University
-    - action: utter_mandatory_submission_to_State_Government_and_affiliating_University
+  - intent: mandatory_submission_to_State_Government_and_affiliating_University
+  - action: utter_mandatory_submission_to_State_Government_and_affiliating_University
 
 - rule: Respond to queries about the timeline for views from State Government and affiliating University
   steps:
