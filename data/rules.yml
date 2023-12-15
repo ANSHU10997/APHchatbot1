@@ -49,8 +49,8 @@ rules:
 
 - rule: if the user asks anything about "Role of General Education Component" respond with action "utter_role_general_education_component"
   steps:
-    - intent: role_general_education_component
-    - action: utter_role_general_education_component
+  - intent: role_general_education_component
+  - action: utter_role_general_education_component
 
 - rule: if the user asks anything about "Emphasis on Credit-based Modular Programs for voactional education" respond with action "utter_emphasis_credit_based_modular_programs"
   steps:
