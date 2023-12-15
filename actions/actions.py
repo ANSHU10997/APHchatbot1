@@ -271,3 +271,11 @@ class ActionTimeFrameForSubmissionAndConsequences(Action):
     def run(self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
         dispatcher.utter_message("AICTE specifies a time schedule through Public Notices and its website for the submission of applications. It is mandatory for applications to be submitted on the AICTE Web Portal through NSWS, with both the application and payment made by the last date as notified in the Public Notice/AICTE Website. Applications submitted after the deadline will not be accepted.")
         return []
+
+class ActionTypesOfProgramsForApproval(Action):
+    def name(self) -> Text:
+        return "utter_types_of_programs_for_approval"
+
+    def run(self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+        dispatcher.utter_message("A new technical institution can seek approval to offer programs in Engineering and Technology, Planning, Applied Arts and Crafts, Design, Hotel Management and Catering Technology (Diploma/Undergraduate Degree Level), Computer Application (MCA), and Management (Post Graduate Certificate/Post Graduate Diploma/Post Graduate Degree Level).")
+        return []
