@@ -84,8 +84,8 @@ rules:
 
 - rule: Respond to queries about transferring earned credits and receiving awards in Vocational Education
   steps:
-    - intent: credit_transfer_certification
-    - action: utter_credit_transfer_certification
+  - intent: credit_transfer_certification
+  - action: utter_credit_transfer_certification
 
 - rule: Respond to queries about finding information on 'Knowledge and Skill' certification levels
   steps:
