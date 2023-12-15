@@ -34,8 +34,8 @@ rules:
 
   - rule: if the user asks anything about Credit-based Modular Programs reply with action "utter_credit_based_modular_programs" or user asks anything related to credit-based modular programs
     steps:
-      - intent: credit_based_modular_programs
-      - action: utter_credit_based_modular_programs
+    - intent: credit_based_modular_programs
+    - action: utter_credit_based_modular_programs
 
   - rule: if the user asks anything about Curriculum Mix in Vocational Education i.e., balance between traditional learning and practical learning, respond with action "utter_curriculum_mix_vocational_education"
     steps:
