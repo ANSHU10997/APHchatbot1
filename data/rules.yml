@@ -44,8 +44,8 @@ rules:
 
 - rule: if the user asks anything about "who hold the authority to approve the content of our educational curriculum" respond with action "utter_curriculum_approval_oversight"
   steps:
-    - intent: curriculum_approval_oversight
-    - action: utter_curriculum_approval_oversight
+  - intent: curriculum_approval_oversight
+  - action: utter_curriculum_approval_oversight
 
 - rule: if the user asks anything about "Role of General Education Component" respond with action "utter_role_general_education_component"
   steps:
