@@ -104,8 +104,8 @@ rules:
 
 - rule: Respond to queries about the process of requesting a No Objection Certificate (NOC) for schools
   steps:
-    - intent: noc_process
-    - action: utter_noc_process
+  - intent: noc_process
+  - action: utter_noc_process
 
 - rule: Respond to queries about prerequisites for establishing a technical institution
   steps:
