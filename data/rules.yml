@@ -129,12 +129,13 @@ rules:
 
 - rule: Respond to queries about the time frame for submission and consequences
   steps:
-  adaction: utter_time_frame_for_submission_and_consequences
+  - intent: time_frame_for_submission_and_consequences
+  - action: utter_time_frame_for_submission_and_consequences
 
 - rule: Respond to queries about types of programs for approval
   steps:
-    - intent: types_of_programs_for_approval
-    - action: utter_types_of_programs_for_approval
+  - intent: types_of_programs_for_approval
+  - action: utter_types_of_programs_for_approval
 
 - rule: Respond to queries about eligibility criteria for promoters
   steps:
