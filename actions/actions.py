@@ -455,3 +455,11 @@ class ActionBuildingPlanRequirementsAndApproval(Action):
     def run(self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
         dispatcher.utter_message("The building plan for the entire duration of the institution's programs must be prepared by an architect registered with the Council of Architecture or a licensed surveyor. The plan should be approved by the Competent Authority designated by the concerned State Government/UT.")
         return []
+
+class ActionQualificationsRequiredForHeadOfTechnicalInstitution(Action):
+    def name(self) -> Text:
+        return "utter_qualifications_required_for_head_of_technical_institution"
+
+    def run(self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+        dispatcher.utter_message("The head of the technical institution should be named as the 'Principal/Director' and must have qualifications as per AICTE norms defined for a Principal in a program of the technical institution.")
+        return []
