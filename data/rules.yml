@@ -89,8 +89,8 @@ rules:
 
 - rule: Respond to queries about finding information on 'Knowledge and Skill' certification levels
   steps:
-    - intent: certification_levels_information
-    - action: utter_certification_levels_information
+  - intent: certification_levels_information
+  - action: utter_certification_levels_information
 
 - rule: Respond to queries about transitioning from regular school to Vocational classes and the role of SKP/Training Providers
   steps:
