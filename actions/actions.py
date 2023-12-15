@@ -279,3 +279,11 @@ class ActionTypesOfProgramsForApproval(Action):
     def run(self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
         dispatcher.utter_message("A new technical institution can seek approval to offer programs in Engineering and Technology, Planning, Applied Arts and Crafts, Design, Hotel Management and Catering Technology (Diploma/Undergraduate Degree Level), Computer Application (MCA), and Management (Post Graduate Certificate/Post Graduate Diploma/Post Graduate Degree Level).")
         return []
+
+class ActionEligibilityCriteriaForPromoters(Action):
+    def name(self) -> Text:
+        return "utter_eligibility_criteria_for_promoters"
+
+    def run(self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+        dispatcher.utter_message("Promoters can be a Society registered under the Societies Registration Act, 1860, a Trust registered under the Indian Trust Act, 1882, a Company established under Section 8 of the Companies Act, 2013, or the Central/State Government/UT Administration. Foreign equity in a company applying for the establishment of a technical institution is generally not permitted.")
+        return []
