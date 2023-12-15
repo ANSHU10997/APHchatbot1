@@ -423,3 +423,11 @@ class ActionTimelineForViewsFromStateGovernmentAndAffiliatingUniversity(Action):
     def run(self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
         dispatcher.utter_message("The State Government/UT and affiliating University/Board should forward their views on the application to the Approval Bureau of AICTE not later than one week from the last date specified for the submission of the application, as per the Public Notice/AICTE Web portal.")
         return []
+    
+class ActionLiftingOfMoratoriumForNewInstitutions(Action):
+    def name(self) -> Text:
+        return "utter_lifting_of_moratorium_for_new_institutions"
+
+    def run(self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+        dispatcher.utter_message("The lifting of the moratorium means that applications for establishing new institutions in Engineering and Technology will be considered, with a preference for those offering courses in multi-disciplinary areas in line with the National Education Policy (NEP) 2020 in STEM areas.")
+        return []
