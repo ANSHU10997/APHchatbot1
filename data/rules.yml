@@ -184,8 +184,7 @@ rules:
 
 - rule: Respond to queries about USER ID allotment and associated cost
   steps:
-    - intent: USER_ID_allotment_and_associated_cost
-    - action: utter_USER_ID_allotment_and_associated_cost
+  astion: utter_USER_ID_allotment_and_associated_cost
 
 - rule: Respond to queries about the procedure for password recovery and charges
   steps:
