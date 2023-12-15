@@ -479,3 +479,11 @@ class ActionOutcomesOfApprovalUnderSection152a(Action):
     def run(self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
         dispatcher.utter_message("If the application is approved, the existing institution will be considered closed (progressive/complete closure, as applicable), and any liabilities arising out of this will solely be the responsibility of the Trust/Society/Company/Technical Institution.")
         return []
+
+class ActionFundPositionRequirementsInTermsOfFDRsAndBankAccounts(Action):
+    def name(self) -> Text:
+        return "utter_fund_position_requirements_in_terms_of_FDRs_and_bank_accounts"
+
+    def run(self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+        dispatcher.utter_message("The fund position of the applicant should be in the form of FDRs and/or bank accounts in Nationalized Banks or Scheduled Commercial Banks recognized by the Reserve Bank of India on the date of scrutiny.")
+        return []
