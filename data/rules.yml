@@ -249,8 +249,8 @@ rules:
 
 - rule: qualifications_required_for_head_of_technical_institution
   steps:
-    - intent: qualifications_required_for_head_of_technical_institution
-    - action: respond_qualifications_required_for_head
+  - intent: qualifications_required_for_head_of_technical_institution
+  - action: respond_qualifications_required_for_head
 
 - rule: existing_institutions_applying_for_closure_and_starting_new_institution
   steps:
