@@ -92,17 +92,17 @@ rules:
       - intent: certification_levels_information
       - action: utter_certification_levels_information
 
- - rule: Respond to queries about transitioning from regular school to Vocational classes and the role of SKP/Training Providers
+  - rule: Respond to queries about transitioning from regular school to Vocational classes and the role of SKP/Training Providers
     steps:
       - intent: general_stream_to_vocational_stream_transition
       - action: utter_general_stream_to_vocational_stream_transition
 
- - rule: Respond to queries about transitioning between Vocational classes and regular higher studies as per NEP 2020
+  - rule: Respond to queries about transitioning between Vocational classes and regular higher studies as per NEP 2020
     steps:
       - intent: movement_between_vocational_and_formal_higher_education_streams
       - action: utter_movement_between_vocational_and_formal_higher_education_streams
 
-- rule: Respond to queries about the process of requesting a No Objection Certificate (NOC) for schools
+  - rule: Respond to queries about the process of requesting a No Objection Certificate (NOC) for schools
     steps:
       - intent: noc_process
       - action: utter_noc_process
