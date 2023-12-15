@@ -229,8 +229,8 @@ rules:
 
 - rule: lifting_of_moratorium_for_new_institutions
   steps:
-    - intent: lifting_of_moratorium_for_new_institutions
-    - action: respond_lifting_of_moratorium
+  - intent: lifting_of_moratorium_for_new_institutions
+  - action: respond_lifting_of_moratorium
 
 - rule: requirements_and_eligibility_for_Promoter_Trust_Society_Company
   steps:
