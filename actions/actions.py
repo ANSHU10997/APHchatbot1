@@ -295,3 +295,11 @@ class ActionIneligibilityOfCertainPrograms(Action):
     def run(self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
         dispatcher.utter_message("New institutions are not eligible for these programs as per section 1.3.3. The specific reasons for this exclusion are not provided in the given content.")
         return []
+
+class ActionMinistryOfEducationSchemesForEstablishment(Action):
+    def name(self) -> Text:
+        return "utter_Ministry_of_Education_schemes_for_establishment"
+
+    def run(self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+        dispatcher.utter_message("The schemes mentioned are the 'Sub-Mission on Polytechnics' and initiatives for educationally backward districts/left-wing extremism affected areas. The concerned State Government/UT must apply online on the AICTE Web Portal, and the application will go through scrutiny committees before approval.")
+        return []
