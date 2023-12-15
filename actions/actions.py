@@ -487,3 +487,11 @@ class ActionFundPositionRequirementsInTermsOfFDRsAndBankAccounts(Action):
     def run(self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
         dispatcher.utter_message("The fund position of the applicant should be in the form of FDRs and/or bank accounts in Nationalized Banks or Scheduled Commercial Banks recognized by the Reserve Bank of India on the date of scrutiny.")
         return []
+
+class ActionRequirementsForGovernmentGovernmentAidedInstitutionsCentralStateUniversities(Action):
+    def name(self) -> Text:
+        return "utter_requirements_for_Government_Government-Aided_Institutions_Central_State_Universities"
+
+    def run(self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+        dispatcher.utter_message("For Government/Government-Aided Institutions/Central/State Universities, the government must have a budget provision of a minimum of ₹100 lakh and the requisite land/built-up area for the establishment of a new institute.")
+        return []
