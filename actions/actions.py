@@ -239,3 +239,12 @@ class ActionPrerequisitesForEstablishingTechnicalInstitution(Action):
     def run(self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
         dispatcher.utter_message("The new technical institution should meet the infrastructure requirements outlined in the Approval Process Handbook. Additionally, it should have prior approval from the Council before offering any technical courses.")
         return []
+
+class ActionSignificanceOfAdheringToLaws(Action):
+    def name(self) -> Text:
+        return "utter_significance_of_adhering_to_laws"
+
+    def run(self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+        dispatcher.utter_message("The institution must adhere to existing Central, State, and Local Laws, along with norms from other Regulatory Bodies if applicable, in order to ensure compliance and legality in its establishment and operation.")
+        return []
+
