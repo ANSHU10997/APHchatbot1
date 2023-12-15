@@ -391,3 +391,11 @@ class ActionPrecautionsForDataEntryAndSubmission(Action):
     def run(self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
         dispatcher.utter_message("Applicants should ensure that the data entered in their online application is correct. They can edit the data until the final submission, after which no further editing is allowed. All documents should be digitally signed, and applicants should exercise caution before pressing the 'SUBMIT' tab.")
         return []
+
+class ActionSignificanceOfDigitalSignatureCertificate(Action):
+    def name(self) -> Text:
+        return "utter_significance_of_Digital_Signature_Certificate"
+
+    def run(self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+        dispatcher.utter_message("Institutions are required to submit applications with a DSC to ensure the authenticity of the documents. Any document uploaded without a Digital Signature will not be considered valid.")
+        return []
