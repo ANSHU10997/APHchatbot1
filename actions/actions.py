@@ -327,3 +327,11 @@ class ActionAdditionalChargesForExtraCommittees(Action):
     def run(self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
         dispatcher.utter_message("For an additional Scrutiny Committee, the applicant has to remit ₹0.55 Lakh, and for an additional Expert Visit Committee (Online/Offline), the applicant has to remit ₹1.10 Lakh or ₹2.20 Lakh, respectively, as additional TER Charges.")
         return []
+
+class ActionConsequencesOfNotPayingTERWithinDeadline(Action):
+    def name(self) -> Text:
+        return "utter_consequences_of_not_paying_TER_within_deadline"
+
+    def run(self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+        dispatcher.utter_message("If the TER Charges are not paid within the deadline, the application shall not be considered.")
+        return []
