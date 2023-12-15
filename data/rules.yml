@@ -72,40 +72,41 @@ rules:
       - intent: curriculum_emphasis_work_readiness_skills
       - action: utter_curriculum_emphasis_work_readiness_skills
 
-  - rule: Determining General Education Component
+  - rule: Respond to queries about the determination of general education component in the school curriculum
     steps:
       - intent: determining_general_education_component
       - action: utter_determining_general_education_component
 
-  - rule: Completing Skill Modules and Acquiring Credits
+  - rule: Respond to queries about completing skill modules and acquiring credits in Vocational Education
     steps:
       - intent: completing_skill_modules_acquiring_credits
       - action: utter_completing_skill_modules_acquiring_credits
 
-  - rule: Credit Transfer and Certification
+  - rule: Respond to queries about transferring earned credits and receiving awards in Vocational Education
     steps:
       - intent: credit_transfer_certification
       - action: utter_credit_transfer_certification
 
-  - rule: Certification Levels Information
+  - rule: Respond to queries about finding information on 'Knowledge and Skill' certification levels
     steps:
       - intent: certification_levels_information
       - action: utter_certification_levels_information
 
-  - rule: General Stream to Vocational Stream Transition
+ - rule: Respond to queries about transitioning from regular school to Vocational classes and the role of SKP/Training Providers
     steps:
       - intent: general_stream_to_vocational_stream_transition
       - action: utter_general_stream_to_vocational_stream_transition
 
-  - rule: Movement Between Vocational and Formal Higher Education Streams
+ - rule: Respond to queries about transitioning between Vocational classes and regular higher studies as per NEP 2020
     steps:
       - intent: movement_between_vocational_and_formal_higher_education_streams
       - action: utter_movement_between_vocational_and_formal_higher_education_streams
 
-  - rule: NOC (No Objection Certificate) Process
+- rule: Respond to queries about the process of requesting a No Objection Certificate (NOC) for schools
     steps:
       - intent: noc_process
       - action: utter_noc_process
+
 
 
   stories:
