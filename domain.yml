@@ -223,7 +223,7 @@ responses:
   - text: "The building plan for the entire duration of the institution's programs must be prepared by an architect registered with the Council of Architecture or a licensed surveyor. The plan should be approved by the Competent Authority designated by the concerned State Government/UT."
 
   utter_qualifications_required_for_head_of_technical_institution:
-  - text: "The head of the technical institution should be named as the "Principal/Director" and must have qualifications as per AICTE norms defined for a Principal in a program of the technical institution."
+  - text: "The head of the technical institution should be named as the \"Principal/Director\" and must have qualifications as per AICTE norms defined for a Principal in a program of the technical institution."
 
   utter_existing_institutions_applying_for_closure_and_starting_new_institution:
   - text: "Yes, existing institutions applying for closure can also apply for starting a new technical institution in the same premises in the same academic year, provided they apply for progressive/complete closure of the existing program and a different program for the new institution."
