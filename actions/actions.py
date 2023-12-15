@@ -335,3 +335,11 @@ class ActionConsequencesOfNotPayingTERWithinDeadline(Action):
     def run(self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
         dispatcher.utter_message("If the TER Charges are not paid within the deadline, the application shall not be considered.")
         return []
+    
+class ActionImportanceOfOnlineApplicationThroughNSWS(Action):
+    def name(self) -> Text:
+        return "utter_importance_of_online_application_through_NSWS"
+
+    def run(self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+        dispatcher.utter_message("Institutions seeking approval for the first time must submit an online application through NSWS on the AICTE web portal to be considered for processing.")
+        return []
