@@ -383,3 +383,11 @@ class ActionEligibilityForTERChargeRefund(Action):
     def run(self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
         dispatcher.utter_message("Applications submitted under Clause 1.3.1 and 1.3.5, if rejected at the level of Scrutiny/Re-Scrutiny without availing the appeal provision, are eligible for a refund of TER Charges after a deduction of ₹0.55 Lakh.")
         return []
+
+class ActionPrecautionsForDataEntryAndSubmission(Action):
+    def name(self) -> Text:
+        return "utter_precautions_for_data_entry_and_submission"
+
+    def run(self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+        dispatcher.utter_message("Applicants should ensure that the data entered in their online application is correct. They can edit the data until the final submission, after which no further editing is allowed. All documents should be digitally signed, and applicants should exercise caution before pressing the 'SUBMIT' tab.")
+        return []
