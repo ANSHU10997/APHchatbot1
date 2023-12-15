@@ -447,3 +447,11 @@ class ActionMinimumFundsRequiredForProofOfOperationalExpenses(Action):
     def run(self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
         dispatcher.utter_message("The minimum funds required for different programs are as follows:\nEngineering and Technology: ₹100 lakh\nPlanning: ₹50 lakh\nApplied Arts and Crafts: ₹50 lakh\nDesign: ₹50 lakh\nHotel Management and Catering Technology: ₹50 lakh\nComputer Application (MCA): ₹50 lakh\nManagement: ₹50 lakh")
         return []
+    
+class ActionBuildingPlanRequirementsAndApproval(Action):
+    def name(self) -> Text:
+        return "utter_building_plan_requirements_and_approval"
+
+    def run(self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+        dispatcher.utter_message("The building plan for the entire duration of the institution's programs must be prepared by an architect registered with the Council of Architecture or a licensed surveyor. The plan should be approved by the Competent Authority designated by the concerned State Government/UT.")
+        return []
