@@ -159,8 +159,8 @@ rules:
 
 - rule: Respond to queries about existing institutions' approval by AICTE
   steps:
-    - intent: existing_institutions_approval_by_AICTE
-    - action: utter_existing_institutions_approval_by_AICTE
+  - intent: existing_institutions_approval_by_AICTE
+  - action: utter_existing_institutions_approval_by_AICTE
 
 - rule: Respond to queries about additional charges for extra committees
   steps:
